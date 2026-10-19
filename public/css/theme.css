@@ -52,3 +52,17 @@ body::before{content:"";position:fixed;inset:0;z-index:-1;pointer-events:none;ba
 @media(max-width:860px){.jny{grid-template-columns:1fr;gap:34px}.jny .sh{position:static}.occ{height:360px}}
 @media(prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;transition:none!important}.js .reveal,.js .tsec,.js .jl li{opacity:1;transform:none;clip-path:none}.js .sh h2{-webkit-text-fill-color:currentColor;background:none}}
 html{overflow-x:clip}
+/* fleet cards */
+.fleetgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(340px,1fr));gap:28px;margin-top:34px}
+.fcard{background:var(--panel);border:1px solid var(--line);display:flex;flex-direction:column;overflow:hidden;transition:border-color .3s,box-shadow .4s,transform .9s var(--ease),opacity .9s var(--ease)}.fcard[hidden]{display:none}
+.fcard:hover{border-color:var(--gold);box-shadow:0 24px 60px -28px rgba(212,166,42,.45)}
+.fm{position:relative;aspect-ratio:3/2;background:#000;overflow:hidden;cursor:zoom-in}.fm img{width:100%;height:100%;object-fit:cover;transition:opacity .3s,transform .8s var(--ease)}.fcard:hover .fm img{transform:scale(1.05)}
+.fa{position:absolute;top:50%;transform:translateY(-50%);width:38px;height:38px;border:1px solid var(--gold);background:rgba(0,0,0,.6);color:var(--gold-hi);font-size:24px;cursor:pointer}.fa.p{left:10px}.fa.n{right:10px}
+.fc{position:absolute;right:10px;bottom:10px;background:rgba(0,0,0,.7);color:var(--gold-hi);font-size:13px;padding:3px 10px}
+.ft{display:flex;gap:6px;padding:8px;background:#0a0a0a}.ft img{width:64px;height:44px;object-fit:cover;opacity:.5;cursor:pointer;border:1px solid transparent;transition:.3s}.ft img.on,.ft img:hover{opacity:1;border-color:var(--gold)}
+.fb{padding:24px 26px 28px;display:flex;flex-direction:column;flex:1}.fk{color:var(--gold);font-size:14px;letter-spacing:.08em}.fb h3{font-size:34px;color:var(--gold-hi);margin:2px 0 8px}.fd{color:var(--mute);font-size:16px}
+.fs{list-style:none;padding:0;margin:16px 0 8px;display:flex;flex-wrap:wrap;gap:8px}.fs li{border:1px solid var(--line);padding:5px 12px;font-size:14px;color:var(--mute)}.fs b{color:var(--gold-hi);font-weight:500}
+.fbest{font-size:14px;color:var(--mute);margin:6px 0 20px;font-style:italic}.fb .btn{margin-top:auto;align-self:flex-start}
+#lb{border:0;background:rgba(0,0,0,.92);max-width:none;max-height:none;width:100vw;height:100vh;padding:4vw;cursor:zoom-out}#lb::backdrop{background:rgba(0,0,0,.9)}#lb img{width:100%;height:100%;object-fit:contain}
+@media(max-width:420px){.fleetgrid{grid-template-columns:1fr}}
+.fcard .fb .btn{padding:15px 34px;display:inline-block}

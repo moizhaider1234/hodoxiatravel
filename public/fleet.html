@@ -13,18 +13,13 @@
 <div id="glow"></div>
 <nav id="nav"><a href="index.html" aria-label="Hodoxia Travel Inc. home"><img src="logo.jpg" alt="Hodoxia Travel Inc. logo"></a>
 <button id="burger" aria-label="Menu">Menu</button><ul id="menu"><li><a href="services.html">Services</a></li><li><a href="fleet.html" class=active>Fleet</a></li><li><a href="coverage.html">Coverage</a></li><li><a href="book.html">Book</a></li><li><a href="contact.html">Contact</a></li></ul></nav>
-<header class="page-head"><div class="wrap reveal"><h1><span class="gold">The fleet</span></h1><p class="lede">Choose a class, then browse. Drag, swipe or use the arrow keys.</p></div></header>
+<header class="page-head"><div class="wrap reveal"><h1><span class="gold">The fleet</span></h1><p class="lede">Every vehicle, in detail. Filter by class and browse the photos on each card.</p></div></header>
 <div class="pg"><div class="wrap">
-<div class="tabs" role="tablist" id="tabs"></div>
-<div class="showroom"><div class="scene"></div>
- <div id="carousel" aria-roledescription="carousel"></div>
- <div class="vctrl"><button id="vprev" aria-label="Previous vehicle">&#8249;</button><button id="vnext" aria-label="Next vehicle">&#8250;</button></div>
- <div class="vdots" id="vdots"></div>
- <div class="vinfo"><div><h3 class="vname" id="vname"></h3><p id="vblurb"></p></div>
-  <div class="vside"><div class="spec"><b id="vseats">0</b><span>passengers</span></div><div class="spec"><b id="vbags">0</b><span>bags</span></div><a class="btn solid" id="vbook" href="book.html">Book this class</a></div></div>
-</div>
-<p class="note" style="color:var(--mute);font-size:14px;margin-top:16px">Vehicles shown are examples of each class. You will receive the model or a similar one, subject to availability.</p>
+<div class="tabs" role="tablist" id="ftabs"></div>
+<div class="fleetgrid" id="fgrid"></div>
+<p class="note" style="color:var(--mute);font-size:14px;margin-top:26px">Vehicles shown are examples of each class. You will receive the model or a similar one, subject to availability.</p>
 </div></div>
+<dialog id="lb" aria-label="Vehicle photo"><img alt=""></dialog>
 <footer><div class="wrap"><div class="fgrid">
 <div><img src="logo.jpg" alt="Hodoxia Travel Inc."><p style="color:var(--mute);max-width:32ch">Premium chauffeur service across Canada. Navigate Beyond Horizon.</p></div>
 <div><h4>Explore</h4><a href="index.html">Home</a><a href="services.html">Services</a><a href="fleet.html">Fleet</a><a href="coverage.html">Coverage</a></div>
@@ -33,4 +28,4 @@
 </div><div class="fbase"><span>&copy; 2026 Hodoxia Travel Inc. All rights reserved.</span><span>Serving Canada only. Fares in CAD.</span></div></div></footer>
 <div id="toast" role="status"></div>
 <script src="js/main.js"></script>
-<script src="js/fx.js" defer></script></body></html>
+<script src="js/fleet-page.js"></script><script src="js/fx.js" defer></script></body></html>
