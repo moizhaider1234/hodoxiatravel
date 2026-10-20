@@ -15,3 +15,15 @@ sx.forEach(e=>{const r=e.parentElement.getBoundingClientRect();e.style.transform
 if(jl){const r=jl.getBoundingClientRect();jl.style.setProperty('--p',Math.min(1,Math.max(0,(h*.65-r.top)/r.height)));$$('li',jl).forEach(l=>l.classList.toggle('on',l.getBoundingClientRect().top<h*.65))}};
 addEventListener('scroll',()=>{if(!tk)tk=requestAnimationFrame(up)},{passive:true});up();
 })();
+(()=>{const d=document,$=(s,r=d)=>r.querySelector(s),$$=(s,r=d)=>[...r.querySelectorAll(s)];
+const calm=matchMedia('(prefers-reduced-motion:reduce)').matches,fine=matchMedia('(hover:hover) and (pointer:fine)').matches;
+// back to top
+const t=d.createElement('button');t.id='totop';t.setAttribute('aria-label','Back to top');t.innerHTML='&#8593;';d.body.append(t);
+t.onclick=()=>scrollTo({top:0,behavior:calm?'auto':'smooth'});addEventListener('scroll',()=>t.classList.toggle('show',scrollY>900),{passive:true});
+// menu: lock scroll, label, close on link / Escape
+const b=$('#burger'),m=$('#menu');if(b&&m){const set=o=>{m.classList.toggle('open',o);b.textContent=o?'Close':'Menu';b.setAttribute('aria-expanded',o);d.body.style.overflow=o?'hidden':''};b.onclick=()=>set(!m.classList.contains('open'));m.addEventListener('click',e=>{if(e.target.closest('a'))set(false)});addEventListener('keydown',e=>{if(e.key==='Escape')set(false)});addEventListener('resize',()=>{if(innerWidth>860)set(false)})}
+// current page highlight
+const pg=location.pathname.split('/').pop().replace('.html','')||'index';$$('#menu a').forEach(a=>{if(a.getAttribute('href').replace('.html','')===pg)a.classList.add('active')});
+// magnetic buttons
+if(fine&&!calm)$$('.btn.solid').forEach(e=>{e.addEventListener('pointermove',v=>{const r=e.getBoundingClientRect();e.style.transform=`translate(${(v.clientX-r.left-r.width/2)*.12}px,${(v.clientY-r.top-r.height/2)*.25}px)`});e.addEventListener('pointerleave',()=>e.style.transform='')});
+})();

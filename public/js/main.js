@@ -11,7 +11,7 @@ const CITYFB=['Toronto','Vancouver','Montreal','Calgary','Ottawa','Edmonton','Qu
 // nav
 addEventListener('scroll',()=>$('#nav').classList.toggle('solid',scrollY>60),{passive:true});$('#nav').classList.toggle('solid',scrollY>60);
 $('#burger').onclick=()=>$('#menu').classList.toggle('open');
-addEventListener('pointermove',e=>{const g=$('#glow');g.style.left=e.clientX+'px';g.style.top=e.clientY+'px'});
+
 // reveal + counters
 function countTo(el,t,s=''){let k=0;const id=setInterval(()=>{k+=Math.max(1,Math.ceil(t/30));if(k>=t){k=t;clearInterval(id)}el.textContent=k+s},30)}
 const io=new IntersectionObserver(es=>es.forEach(e=>{if(!e.isIntersecting)return;e.target.classList.add('in');$$('[data-n]',e.target).forEach(n=>countTo(n,+n.dataset.n,n.dataset.s||''));io.unobserve(e.target)}),{threshold:.12});
@@ -81,16 +81,18 @@ if($('#carousel')){
   function build(){
     $$('.vcard',track).forEach(c=>c.remove());
     list().forEach((f,i)=>{const d=document.createElement('article');d.className='vcard';d.setAttribute('aria-label',f.name);
-      d.innerHTML=`<div class="art">${car(f.category==='suv')}</div><div class="sweep"></div><div class="plate">${f.name}</div>`;
-      const im=new Image();im.alt=f.name;im.src=MEDIA.photos[slug(f.name)]||`/fleet/${slug(f.name)}.jpg`;im.onload=()=>{const a=$('.art',d);a.innerHTML='';a.append(im)};
-      d.onclick=()=>go(i);track.append(d)});
+      d.innerHTML=`<div class="halo"></div><div class="art"></div><div class="floor"></div><div class="sweep"></div>`;
+      const im=new Image();im.alt=f.name;im.draggable=false;im.decoding='async';const a=$('.art',d);
+      im.onload=()=>a.append(im);im.onerror=()=>{if(!im.dataset.fb){im.dataset.fb=1;im.src=MEDIA.photos[slug(f.name)]||`/fleet/${slug(f.name)}.jpg`}else a.innerHTML=car(f.category==='suv')};
+      im.src=`/fleet/cutout/${slug(f.name)}.webp`;
+      d.onclick=()=>{if(!moved)go(i)};track.append(d)});
     $('#vdots').innerHTML=list().map((_,i)=>`<i data-i="${i}"></i>`).join('');$$('#vdots i').forEach(d=>d.onclick=()=>go(+d.dataset.i));
     go(idx,true);
   }
   function go(i,init){
     const L=list(),n=L.length;if(!n)return;const prev=idx;idx=(i+n)%n;const h=Math.floor(n/2);
     $$('.vcard',track).forEach((c,k)=>{const o=((k-idx+n+h)%n)-h;c.style.setProperty('--o',o);c.style.setProperty('--a',Math.abs(o));c.dataset.far=Math.abs(o)>2?1:0;
-      const was=c.classList.contains('on');c.classList.remove('on');if(k===idx){void c.offsetWidth;c.classList.add('on')}});
+      const was=c.classList.contains('on');c.classList.remove('on');if(k===idx){void c.offsetWidth;c.classList.add('on');c.classList.remove('pop');void c.offsetWidth;c.classList.add('pop')}});
     const f=L[idx];
     $('#vname').innerHTML=[...f.name].map((c,k)=>`<span style="animation-delay:${k*28}ms">${c===' '?'&nbsp;':c}</span>`).join('');
     $('#vblurb').textContent=f.blurb;$('#vblurb').style.animation='none';void $('#vblurb').offsetWidth;$('#vblurb').style.animation='';
@@ -103,7 +105,14 @@ if($('#carousel')){
   const sr=$('.showroom');sr.onpointerenter=()=>{hover=true;clearInterval(timer)};sr.onpointerleave=()=>{hover=false;go(idx,true)};
   sr.onpointermove=e=>{const r=sr.getBoundingClientRect();sr.style.setProperty('--px',((e.clientX-r.left)/r.width-.5)*2)};
   addEventListener('keydown',e=>{if(e.key==='ArrowLeft')go(idx-1);if(e.key==='ArrowRight')go(idx+1)});
-  let sx=null;track.onpointerdown=e=>sx=e.clientX;track.onpointerup=e=>{if(sx!==null&&Math.abs(e.clientX-sx)>50)go(idx+(e.clientX<sx?1:-1));sx=null};
+  let sx=null,sy=0,st=0,moved=false;
+  track.addEventListener('pointerdown',e=>{if(e.pointerType==='mouse'&&e.button)return;sx=e.clientX;sy=e.clientY;st=performance.now();moved=false;track.classList.add('drag');clearInterval(timer)});
+  track.addEventListener('pointermove',e=>{if(sx===null)return;const dx=e.clientX-sx;if(Math.abs(dx)>6)moved=true;if(moved)track.style.setProperty('--drag',Math.max(-220,Math.min(220,dx))+'px')});
+  const end=e=>{if(sx===null)return;const dx=e.clientX-sx,v=Math.abs(dx)/(performance.now()-st);track.classList.remove('drag');track.style.setProperty('--drag','0px');
+    if(Math.abs(dx)>45||(v>.5&&Math.abs(dx)>20))go(idx+(dx<0?1:-1));else go(idx,true);sx=null;setTimeout(()=>moved=false,60)};
+  track.addEventListener('pointerup',end);track.addEventListener('pointercancel',end);
+  track.addEventListener('dragstart',e=>e.preventDefault());
+  let io2=new IntersectionObserver(es=>es.forEach(x=>{if(x.isIntersecting){sr.classList.add('live');go(idx,true)}else clearInterval(timer)}),{threshold:.3});io2.observe(sr);
   getJSON('/api/fleet',null).then(d=>{fleet=Array.isArray(d)&&d.length?d:FALLBACK;tabs();build()});
 }
 if($('#sky')){
