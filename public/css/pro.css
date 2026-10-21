@@ -146,20 +146,19 @@ footer .fgrid img{width:104px;height:104px;border-radius:50%;object-fit:cover;bo
 .svc-sec .card svg{margin-top:-52px;position:relative;z-index:2;background:#2d2d2d;margin-bottom:14px}
 
 /* ---- Fleet: scroll-scrubbed showroom (cars drive past as you scroll) ---- */
-.fscroll{--stageh:max(540px,calc(100vh - 110px));--n:11;height:calc(var(--stageh) + (var(--n) - 1)*46vh);margin-top:30px;position:relative}
+.fscroll{--stageh:max(540px,calc(100vh - 110px));--n:11;height:calc(var(--stageh) + 190vh);margin-top:30px;position:relative}
 .fscroll.nopin{height:auto}
 .fstage{position:sticky;top:88px;height:var(--stageh)}
 .nopin .fstage{position:relative;top:0}
-.fcard{position:relative;height:100%;border-radius:28px;overflow:hidden;background:#171518;box-shadow:0 50px 100px -40px rgba(0,0,0,.95),inset 0 0 0 1px rgba(199,163,101,.3);transform-origin:50% 0;will-change:transform;isolation:isolate}
+.fcard{touch-action:pan-y;cursor:grab;user-select:none;-webkit-user-select:none;position:relative;height:100%;border-radius:28px;overflow:hidden;background:#171518;box-shadow:0 50px 100px -40px rgba(0,0,0,.95),inset 0 0 0 1px rgba(199,163,101,.3);transform-origin:50% 0;will-change:transform;isolation:isolate}
 .fbg{position:absolute;inset:0;z-index:0;background:radial-gradient(ellipse 62% 55% at 50% 44%,rgba(199,163,101,.24),transparent 72%),radial-gradient(ellipse 110% 40% at 50% 100%,rgba(252,248,237,.07),transparent),linear-gradient(180deg,#2d2d2d,#171518 72%)}
 .fghost{position:absolute;inset:0;z-index:1;pointer-events:none;will-change:transform}
-.fghost span{position:absolute;left:50%;top:15%;transform:translate(-50%,0);white-space:nowrap;font:500 clamp(70px,13vw,210px)/1 'Cormorant Garamond',serif;color:transparent;-webkit-text-stroke:1px rgba(199,163,101,.32);letter-spacing:.02em;opacity:0;transition:opacity .7s var(--ease)}
-.fghost span.on{opacity:1}
+.fghost span{position:absolute;left:50%;top:15%;transform:translate(-50%,0);white-space:nowrap;font:500 clamp(70px,13vw,210px)/1 'Cormorant Garamond',serif;color:transparent;-webkit-text-stroke:1px rgba(199,163,101,.32);letter-spacing:.02em;opacity:0;will-change:transform,opacity}
 .fstreaks{position:absolute;inset:0;z-index:2;pointer-events:none;overflow:hidden}
 .fstreaks i{position:absolute;height:2px;width:22%;background:linear-gradient(90deg,transparent,rgba(220,200,167,.75),transparent);opacity:var(--sp,0);will-change:left}
 .ffloor{position:absolute;left:0;right:0;bottom:var(--base);height:46%;z-index:2;pointer-events:none;border-top:1px solid rgba(199,163,101,.35);background:linear-gradient(180deg,rgba(0,0,0,.35),transparent 70%),repeating-linear-gradient(90deg,transparent 0 119px,rgba(199,163,101,.1) 119px 120px);background-position:var(--fx,0px) 0}
 .fcard{--base:clamp(180px,29%,250px)}
-.fcars{position:absolute;inset:0;z-index:3;pointer-events:none}
+.fcars{position:absolute;inset:0;z-index:3;pointer-events:none}.fgrp{position:absolute;inset:0;will-change:transform,opacity}
 .fcars img{position:absolute;left:50%;bottom:calc(var(--base) - 10px);width:min(820px,74%);max-height:56%;object-fit:contain;object-position:50% 100%;visibility:hidden;will-change:transform,opacity;filter:drop-shadow(0 26px 26px rgba(0,0,0,.65))}
 .ftop{position:absolute;z-index:6;top:20px;left:22px;right:22px;display:flex;justify-content:space-between;align-items:center;gap:16px}
 .fpills{display:flex;gap:8px;flex-wrap:wrap}
@@ -179,8 +178,16 @@ footer .fgrid img{width:104px;height:104px;border-radius:50%;object-fit:cover;bo
 .cap-up #fn{animation-delay:.06s}.cap-up #fb{animation-delay:.12s}.cap-up #fside{animation-delay:.18s}
 @keyframes capUp{from{opacity:0;transform:translateY(34px);filter:blur(6px)}to{opacity:1;transform:none;filter:none}}
 @keyframes capDown{from{opacity:0;transform:translateY(-34px);filter:blur(6px)}to{opacity:1;transform:none;filter:none}}
-.fhint2{position:absolute;z-index:6;right:30px;top:50%;writing-mode:vertical-rl;font-size:11px;letter-spacing:.3em;text-transform:uppercase;color:var(--mute);transition:opacity .5s}
-.fhint2 b{display:inline-block;animation:fbob 1.4s ease-in-out infinite}.fhint2.gone{opacity:0}
-@keyframes fbob{50%{transform:translateY(6px)}}
-@media(max-width:760px){.fscroll{--stageh:max(520px,calc(100vh - 100px))}.fstage{top:78px}.fcard{border-radius:22px;--base:clamp(250px,40%,290px)}.fcars img{width:92%;max-height:42%}.fcap{left:12px;right:12px;bottom:12px;padding:16px 18px;grid-template-columns:1fr;gap:12px}.fcap p{font-size:15px}.fside{gap:16px}.fside .spec b{font-size:28px}.ftop{top:14px;left:14px;right:14px}.fpills button{padding:8px 12px;font-size:11px;letter-spacing:.08em}.fcount{display:none}.fhint2{display:none}}
+.fnav{position:absolute;z-index:6;top:calc(50% - var(--base)/2 - 10px);width:50px;height:50px;border-radius:50%;border:1px solid rgba(252,248,237,.3);background:rgba(23,21,24,.5);backdrop-filter:blur(10px);color:var(--ivory);font-size:26px;line-height:1;cursor:pointer;transition:background .3s,color .3s,border-color .3s}
+.fnav:hover{background:var(--gold);color:#171518;border-color:var(--gold)}.fprev{left:22px}.fnext{right:22px}
+.fdots{position:absolute;z-index:6;left:0;right:0;bottom:calc(var(--base) - 44px);display:flex;justify-content:center;gap:8px;pointer-events:auto}
+.fdots i{width:34px;height:4px;border-radius:2px;background:rgba(252,248,237,.25);cursor:pointer;transition:background .4s,width .4s var(--ease)}.fdots i.on{background:var(--gold);width:52px}
+.fhint3{position:absolute;z-index:6;left:0;right:0;top:78px;display:flex;justify-content:center;gap:26px;flex-wrap:wrap;font-size:11px;letter-spacing:.22em;text-transform:uppercase;color:var(--mute);transition:opacity .6s;pointer-events:none}
+.fhint3.gone{opacity:0}.fhint3 span{animation:fpulse 2.4s ease-in-out infinite}.fhint3 span+span{animation-delay:1.2s}
+@keyframes fpulse{50%{opacity:.45}}
+.cap-nx .cin{animation:capNx .65s var(--ease) both}.cap-pv .cin{animation:capPv .65s var(--ease) both}
+.cap-nx #fn,.cap-pv #fn{animation-delay:.05s}.cap-nx #fb,.cap-pv #fb{animation-delay:.1s}.cap-nx #fside,.cap-pv #fside{animation-delay:.15s}
+@keyframes capNx{from{opacity:0;transform:translateX(44px);filter:blur(6px)}to{opacity:1;transform:none;filter:none}}
+@keyframes capPv{from{opacity:0;transform:translateX(-44px);filter:blur(6px)}to{opacity:1;transform:none;filter:none}}
+@media(max-width:760px){.fscroll{--stageh:max(520px,calc(100vh - 100px))}.fstage{top:78px}.fcard{border-radius:22px;--base:clamp(250px,40%,290px)}.fcars img{width:92%;max-height:42%}.fcap{left:12px;right:12px;bottom:12px;padding:16px 18px;grid-template-columns:1fr;gap:12px}.fcap p{font-size:15px}.fside{gap:16px}.fside .spec b{font-size:28px}.ftop{top:14px;left:14px;right:14px}.fpills button{padding:8px 12px;font-size:11px;letter-spacing:.08em}.fcount{display:none}.fnav{display:none}.fhint3{top:62px;gap:4px 16px;font-size:10px}}
 @media(prefers-reduced-motion:reduce){.cin{animation:none!important;opacity:1}}
