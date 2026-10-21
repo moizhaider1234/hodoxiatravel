@@ -144,3 +144,20 @@ footer .fgrid img{width:104px;height:104px;border-radius:50%;object-fit:cover;bo
 .svc-sec .card:hover .ph img{transform:scale(1.06)}
 .svc-sec .card svg,.svc-sec .card h3,.svc-sec .card p{margin-left:24px;margin-right:24px}
 .svc-sec .card svg{margin-top:-52px;position:relative;z-index:2;background:#2d2d2d;margin-bottom:14px}
+
+/* ---- Fleet: stacked full-width photo slides (scroll up to reveal next class) ---- */
+.fstack{margin-top:34px;position:relative}
+.fslide{position:sticky;top:96px;height:min(76vh,700px);min-height:440px;margin-bottom:32vh;border-radius:30px;overflow:hidden;background:#171518;box-shadow:0 40px 90px -36px rgba(0,0,0,.9),inset 0 0 0 1px rgba(199,163,101,.3);transform-origin:50% 0;will-change:transform;transform:scale(var(--sc,1))}
+.fslide:last-child{margin-bottom:0}
+.fslide>img{position:absolute;left:0;top:-6%;width:100%;height:112%;object-fit:cover;transform:translateY(var(--py,0px));will-change:transform}
+.fslide::before{content:"";position:absolute;inset:0;z-index:1;background:linear-gradient(180deg,rgba(23,21,24,.25),transparent 30%,rgba(23,21,24,.55) 100%)}
+.fslide::after{content:"";position:absolute;inset:0;z-index:4;background:#171518;opacity:var(--dim,0);pointer-events:none}
+.fnum{position:absolute;z-index:3;top:22px;left:26px;font-size:13px;letter-spacing:.22em;color:var(--ivory);padding:7px 14px;border-radius:30px;background:rgba(23,21,24,.45);backdrop-filter:blur(10px);border:1px solid rgba(252,248,237,.22)}
+.fcap{position:absolute;z-index:3;left:20px;right:20px;bottom:20px;padding:26px 32px;border-radius:18px;border:1px solid rgba(252,248,237,.3);background:rgba(23,21,24,.42);backdrop-filter:blur(20px) saturate(1.2);-webkit-backdrop-filter:blur(20px) saturate(1.2);display:grid;grid-template-columns:1fr auto;gap:28px;align-items:end;opacity:var(--in,1);transform:translateY(calc((1 - var(--in,1))*46px))}
+.fcap h3{font-size:clamp(30px,3.6vw,48px);color:var(--ivory);line-height:1.1;margin-bottom:6px}
+.fcap p{color:var(--ivory);max-width:58ch;font-size:17px}
+.fcap small{display:block;margin-top:10px;color:var(--gold-hi);font-size:13px;letter-spacing:.06em}
+.fside{display:flex;gap:26px;align-items:center;flex-wrap:wrap}
+.fside .spec b{font-size:38px}
+@media(max-width:760px){.fslide{top:78px;height:min(72vh,560px);min-height:420px;border-radius:22px;margin-bottom:26vh}.fcap{left:12px;right:12px;bottom:12px;padding:18px 18px;grid-template-columns:1fr;gap:14px}.fcap p{font-size:15px}.fside{gap:18px}.fside .spec b{font-size:30px}.fnum{top:14px;left:16px}}
+@media(prefers-reduced-motion:reduce){.fslide{transform:none!important}.fslide>img{transform:none!important}.fcap{opacity:1!important;transform:none!important}}
