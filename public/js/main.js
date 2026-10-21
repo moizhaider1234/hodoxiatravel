@@ -71,7 +71,7 @@ if($('#cf'))$('#cf').onsubmit=async e=>{e.preventDefault();const m=$('#cmsg');m.
 // coverage chips
 if($('#chips'))getJSON('/api/cities',CITYFB).then(cs=>{cs=Array.isArray(cs)?cs:CITYFB;$('#chips').innerHTML=cs.map(c=>`<a class="chip" href="book.html?city=${encodeURIComponent(c)}">${c}</a>`).join('')});
 // ===== animated fleet showroom =====
-const car=suv=>suv?`<svg viewBox="0 0 600 220"><g fill="none" stroke="#d4a62a" stroke-width="2.5" stroke-linejoin="round"><path d="M40 160V118q0-14 16-18l90-14 40-42q8-8 22-8h196q16 0 26 10l62 48 50 14q18 6 18 24v28q0 8-8 8h-30M120 168H40q-4 0-4-8M240 168h160"/><path d="M168 86l30-36h112v36zM322 86V50h46l50 36z"/></g><g fill="#050505" stroke="#f1cf6b" stroke-width="3"><circle cx="190" cy="170" r="34"/><circle cx="470" cy="170" r="34"/></g><g fill="#d4a62a"><circle cx="190" cy="170" r="10"/><circle cx="470" cy="170" r="10"/></g></svg>`:`<svg viewBox="0 0 600 200"><g fill="none" stroke="#d4a62a" stroke-width="2.5" stroke-linejoin="round"><path d="M30 142v-22q0-16 20-22l100-18 52-34q10-8 26-8h150q16 0 28 9l52 36 80 18q22 6 22 28v13q0 8-8 8h-30M118 150H38q-8 0-8-8M236 150h130"/><path d="M200 82l42-26h106l48 30z"/></g><g fill="#050505" stroke="#f1cf6b" stroke-width="3"><circle cx="178" cy="152" r="32"/><circle cx="458" cy="152" r="32"/></g><g fill="#d4a62a"><circle cx="178" cy="152" r="9"/><circle cx="458" cy="152" r="9"/></g></svg>`;
+const car=suv=>suv?`<svg viewBox="0 0 600 220"><g fill="none" stroke="#c7a365" stroke-width="2.5" stroke-linejoin="round"><path d="M40 160V118q0-14 16-18l90-14 40-42q8-8 22-8h196q16 0 26 10l62 48 50 14q18 6 18 24v28q0 8-8 8h-30M120 168H40q-4 0-4-8M240 168h160"/><path d="M168 86l30-36h112v36zM322 86V50h46l50 36z"/></g><g fill="#171518" stroke="#c7a365" stroke-width="3"><circle cx="190" cy="170" r="34"/><circle cx="470" cy="170" r="34"/></g><g fill="#c7a365"><circle cx="190" cy="170" r="10"/><circle cx="470" cy="170" r="10"/></g></svg>`:`<svg viewBox="0 0 600 200"><g fill="none" stroke="#c7a365" stroke-width="2.5" stroke-linejoin="round"><path d="M30 142v-22q0-16 20-22l100-18 52-34q10-8 26-8h150q16 0 28 9l52 36 80 18q22 6 22 28v13q0 8-8 8h-30M118 150H38q-8 0-8-8M236 150h130"/><path d="M200 82l42-26h106l48 30z"/></g><g fill="#171518" stroke="#c7a365" stroke-width="3"><circle cx="178" cy="152" r="32"/><circle cx="458" cy="152" r="32"/></g><g fill="#c7a365"><circle cx="178" cy="152" r="9"/><circle cx="458" cy="152" r="9"/></g></svg>`;
 if($('#carousel')){
   const CATS={business:'Business class',first:'First class',suv:'Business SUVs'};
   let fleet=[],cat='business',idx=0,timer,hover=false,first=true;const track=$('#carousel'),scene=$('.scene');
@@ -124,16 +124,16 @@ if($('#sky')){
   v.addEventListener('error',fallback,true);v.querySelector('source').addEventListener('error',fallback);
   v.addEventListener('playing',()=>{c.style.display='none'});
   function size(){c.width=innerWidth;c.height=innerHeight}size();addEventListener('resize',size);
-  function jet(px,py,a,s){x.save();x.translate(px,py);x.rotate(a);x.scale(s,s);x.fillStyle='#e9e4d4';
+  function jet(px,py,a,s){x.save();x.translate(px,py);x.rotate(a);x.scale(s,s);x.fillStyle='#fcf8ed';
     x.beginPath();x.moveTo(-90,0);x.quadraticCurveTo(-60,-12,60,-10);x.quadraticCurveTo(100,-6,110,2);x.quadraticCurveTo(80,12,-60,12);x.closePath();x.fill();
-    x.fillStyle='#b9b29c';x.beginPath();x.moveTo(-10,4);x.lineTo(-50,34);x.lineTo(-30,34);x.lineTo(30,4);x.fill();
+    x.fillStyle='#dcc8a7';x.beginPath();x.moveTo(-10,4);x.lineTo(-50,34);x.lineTo(-30,34);x.lineTo(30,4);x.fill();
     x.beginPath();x.moveTo(-80,-6);x.lineTo(-96,-40);x.lineTo(-78,-40);x.lineTo(-52,-8);x.fill();
-    x.fillStyle='#d4a62a';x.fillRect(-60,0,120,2.5);x.fillStyle='#222';for(let i=0;i<7;i++)x.fillRect(20+i*10,-6,6,4);x.restore()}
+    x.fillStyle='#c7a365';x.fillRect(-60,0,120,2.5);x.fillStyle='#2d2d2d';for(let i=0;i<7;i++)x.fillRect(20+i*10,-6,6,4);x.restore()}
   function loop(){if(!on)return;t=(t+1)%900;const W=c.width,H=c.height,p=t/900,hz=H*.52;
-    const g=x.createLinearGradient(0,0,0,hz);g.addColorStop(0,'#05060a');g.addColorStop(1,'#3a2a0c');x.fillStyle=g;x.fillRect(0,0,W,H);
-    x.fillStyle='#0b0a08';x.fillRect(0,hz,W,H-hz);
-    x.fillStyle='#1b1912';x.beginPath();x.moveTo(W*.46,hz);x.lineTo(W*.54,hz);x.lineTo(W*.95,H);x.lineTo(W*.05,H);x.fill();
-    x.fillStyle='#d4a62a';for(let i=0;i<14;i++){const d=((i/14+t/260)%1),y=hz+(H-hz)*d*d,w=2+d*d*14,h=4+d*d*60;x.globalAlpha=.7;x.fillRect(W/2-w/2,y,w,h)}x.globalAlpha=1;
+    const g=x.createLinearGradient(0,0,0,hz);g.addColorStop(0,'#171518');g.addColorStop(1,'#2d2d2d');x.fillStyle=g;x.fillRect(0,0,W,H);
+    x.fillStyle='#171518';x.fillRect(0,hz,W,H-hz);
+    x.fillStyle='#171518';x.beginPath();x.moveTo(W*.46,hz);x.lineTo(W*.54,hz);x.lineTo(W*.95,H);x.lineTo(W*.05,H);x.fill();
+    x.fillStyle='#c7a365';for(let i=0;i<14;i++){const d=((i/14+t/260)%1),y=hz+(H-hz)*d*d,w=2+d*d*14,h=4+d*d*60;x.globalAlpha=.7;x.fillRect(W/2-w/2,y,w,h)}x.globalAlpha=1;
     const run=Math.min(p/.55,1),lift=Math.max((p-.55)/.45,0),px=W*(.2+run*run*.3+lift*.35),py=H*.8-lift*lift*H*.5-run*H*.04;
     jet(px,py,-lift*.35,1.1+ (1-lift)*.4);requestAnimationFrame(loop)}
   setTimeout(()=>{if(v.readyState<2&&on)fallback()},1200);
