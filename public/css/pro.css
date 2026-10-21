@@ -207,7 +207,37 @@ footer .fgrid img{width:104px;height:104px;border-radius:50%;object-fit:cover;bo
 .why .wph img{width:100%;height:100%;object-fit:cover;display:block;filter:saturate(.9) brightness(.85);transition:transform .8s var(--ease)}
 .why>div:hover .wph img{transform:scale(1.06)}
 @media(hover:none),(max-width:900px){.sec.why-sec{background-attachment:scroll}}
-.occ{background:linear-gradient(180deg,rgba(23,21,24,.18) 0,rgba(23,21,24,.86) 100%),var(--img,none) center/cover,linear-gradient(150deg,var(--a),var(--b))}
+.occ{background:linear-gradient(180deg,rgba(23,21,24,.18) 0,rgba(23,21,24,.86) 100%),var(--img,none) center/cover no-repeat,var(--img2,none) center/cover no-repeat,linear-gradient(150deg,var(--a),var(--b))}
 .occ::before{opacity:.35}
 .cta.cta-photo{background:linear-gradient(rgba(23,21,24,.86),rgba(23,21,24,.78)),radial-gradient(ellipse at 50% 120%,rgba(199,163,101,.3),transparent 60%),url(../media/hero.jpg) 40% 50%/cover no-repeat,#171518}
 #hero::after{background:linear-gradient(90deg,rgba(23,21,24,.82) 0,rgba(23,21,24,.55) 45%,rgba(23,21,24,.25) 100%),radial-gradient(ellipse at 30% 50%,rgba(23,21,24,.25),rgba(23,21,24,.8) 90%),linear-gradient(transparent 65%,#171518)}
+
+/* ---- Photo refresh: remote photo on top, local photo underneath as fallback ---- */
+.svc-sec::before{background:linear-gradient(180deg,#171518 0%,rgba(23,21,24,.80) 26%,rgba(23,21,24,.80) 74%,#171518 100%),url(https://unsplash.com/photos/zkclxSVi1Fc/download?force=true&w=1800) center/cover no-repeat,url(../media/chauffeur-bg.jpg) center 30%/cover no-repeat}
+.sec.why-sec{background:linear-gradient(180deg,rgba(23,21,24,.93) 0,rgba(23,21,24,.82) 45%,rgba(23,21,24,.94) 100%),url(https://unsplash.com/photos/5DremXTTKE0/download?force=true&w=1800) center/cover no-repeat fixed,url(../media/hero.jpg) center/cover no-repeat fixed}
+.cta.cta-photo{background:linear-gradient(rgba(23,21,24,.86),rgba(23,21,24,.78)),radial-gradient(ellipse at 50% 120%,rgba(199,163,101,.3),transparent 60%),url(https://unsplash.com/photos/gwACoyKkJ1c/download?force=true&w=1800) 40% 50%/cover no-repeat,url(../media/hero.jpg) 40% 50%/cover no-repeat,#171518}
+@media(hover:none),(max-width:900px){.sec.why-sec{background-attachment:scroll,scroll,scroll}}
+
+/* Sections that had no photo before */
+#journey{background:linear-gradient(rgba(252,248,237,.93),rgba(252,248,237,.88)),url(https://unsplash.com/photos/M09yaKs0z1I/download?force=true&w=1800) center/cover no-repeat,url(../why/privacy.jpg) center/cover no-repeat,#fcf8ed}
+.sec.apt-sec{background:linear-gradient(180deg,rgba(23,21,24,.90),rgba(23,21,24,.78) 50%,rgba(23,21,24,.92)),url(../media/hero.jpg) center 40%/cover no-repeat,#171518}
+.sec.faq-sec{background:linear-gradient(rgba(23,21,24,.92),rgba(23,21,24,.88)),url(https://unsplash.com/photos/5DremXTTKE0/download?force=true&w=1800) center/cover no-repeat,url(../why/support.jpg) center/cover no-repeat,#171518}
+.sec.fleet-sec{background:#171518}
+.sec.rt-sec{background:linear-gradient(rgba(252,248,237,.94),rgba(252,248,237,.90)),url(../media/chauffeur-bg.jpg) center/cover no-repeat,#fcf8ed}
+
+/* Route cards: photo behind each card */
+.route{background:linear-gradient(180deg,rgba(23,21,24,.55),rgba(23,21,24,.90)),var(--img,none) center/cover,#171518;color:#fcf8ed;border-color:rgba(199,163,101,.35)}
+.route h3{color:#fcf8ed}.route small,.route .rt{color:#dcc8a7}.route em{color:#c7a365}
+.route:hover{transform:translateY(-4px)}
+
+/* Airport tiles: frosted over the photo */
+.apt{background:rgba(23,21,24,.55);-webkit-backdrop-filter:blur(3px);backdrop-filter:blur(3px)}
+
+/* Inner page headers */
+.page-head{position:relative;isolation:isolate;padding-bottom:70px}
+.page-head::before{content:"";position:absolute;inset:0;z-index:-1;background:linear-gradient(180deg,rgba(23,21,24,.78),rgba(23,21,24,.92)),var(--ph,none) center/cover no-repeat,#171518}
+body[data-page=services] .page-head{--ph:url(../services/airport.jpg)}
+body[data-page=fleet] .page-head{--ph:url(../fleet/mercedes-s-class.jpg)}
+body[data-page=coverage] .page-head{--ph:url(../why/flight.jpg)}
+body[data-page=book] .page-head{--ph:url(../why/chauffeur.jpg)}
+body[data-page=contact] .page-head{--ph:url(../why/support.jpg)}
