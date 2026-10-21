@@ -1,6 +1,6 @@
 // ===== Hodoxia shared script =====
 // MEDIA CONFIG: optional direct links (leave empty to use files in /media and /fleet).
-const MEDIA={video:'',poster:'',photos:{}};
+const MEDIA={photos:{}};
 const $=(s,r=document)=>r.querySelector(s),$$=(s,r=document)=>[...r.querySelectorAll(s)];
 const reduce=matchMedia('(prefers-reduced-motion:reduce)').matches;
 const toast=t=>{const e=$('#toast');e.textContent=t;e.classList.add('show');setTimeout(()=>e.classList.remove('show'),4200)};
@@ -114,29 +114,4 @@ if($('#carousel')){
   track.addEventListener('dragstart',e=>e.preventDefault());
   let io2=new IntersectionObserver(es=>es.forEach(x=>{if(x.isIntersecting){sr.classList.add('live');go(idx,true)}else clearInterval(timer)}),{threshold:.3});io2.observe(sr);
   getJSON('/api/fleet',null).then(d=>{fleet=Array.isArray(d)&&d.length?d:FALLBACK;tabs();build()});
-}
-if($('#sky')){
-// hero fallback: animated Gulfstream-style jet takeoff on a runway (shown if /media/gulfstream.mp4 is missing)
-(()=>{const v=$('#jet'),c=$('#sky'),x=c.getContext('2d');let on=true,t=0;
-  if(MEDIA.video){v.querySelector('source').src=MEDIA.video;if(MEDIA.poster)v.poster=MEDIA.poster;v.load()}
-  const hide=()=>{on=false;v.remove();c.style.display='none'};
-  const fallback=()=>{v.style.display='none';c.style.display='block';loop()};
-  v.addEventListener('error',fallback,true);v.querySelector('source').addEventListener('error',fallback);
-  v.addEventListener('playing',()=>{c.style.display='none'});
-  function size(){c.width=innerWidth;c.height=innerHeight}size();addEventListener('resize',size);
-  function jet(px,py,a,s){x.save();x.translate(px,py);x.rotate(a);x.scale(s,s);x.fillStyle='#fcf8ed';
-    x.beginPath();x.moveTo(-90,0);x.quadraticCurveTo(-60,-12,60,-10);x.quadraticCurveTo(100,-6,110,2);x.quadraticCurveTo(80,12,-60,12);x.closePath();x.fill();
-    x.fillStyle='#dcc8a7';x.beginPath();x.moveTo(-10,4);x.lineTo(-50,34);x.lineTo(-30,34);x.lineTo(30,4);x.fill();
-    x.beginPath();x.moveTo(-80,-6);x.lineTo(-96,-40);x.lineTo(-78,-40);x.lineTo(-52,-8);x.fill();
-    x.fillStyle='#c7a365';x.fillRect(-60,0,120,2.5);x.fillStyle='#2d2d2d';for(let i=0;i<7;i++)x.fillRect(20+i*10,-6,6,4);x.restore()}
-  function loop(){if(!on)return;t=(t+1)%900;const W=c.width,H=c.height,p=t/900,hz=H*.52;
-    const g=x.createLinearGradient(0,0,0,hz);g.addColorStop(0,'#171518');g.addColorStop(1,'#2d2d2d');x.fillStyle=g;x.fillRect(0,0,W,H);
-    x.fillStyle='#171518';x.fillRect(0,hz,W,H-hz);
-    x.fillStyle='#171518';x.beginPath();x.moveTo(W*.46,hz);x.lineTo(W*.54,hz);x.lineTo(W*.95,H);x.lineTo(W*.05,H);x.fill();
-    x.fillStyle='#c7a365';for(let i=0;i<14;i++){const d=((i/14+t/260)%1),y=hz+(H-hz)*d*d,w=2+d*d*14,h=4+d*d*60;x.globalAlpha=.7;x.fillRect(W/2-w/2,y,w,h)}x.globalAlpha=1;
-    const run=Math.min(p/.55,1),lift=Math.max((p-.55)/.45,0),px=W*(.2+run*run*.3+lift*.35),py=H*.8-lift*lift*H*.5-run*H*.04;
-    jet(px,py,-lift*.35,1.1+ (1-lift)*.4);requestAnimationFrame(loop)}
-  setTimeout(()=>{if(v.readyState<2&&on)fallback()},1200);
-})();
-
 }

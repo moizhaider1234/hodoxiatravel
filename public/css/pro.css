@@ -194,3 +194,20 @@ footer .fgrid img{width:104px;height:104px;border-radius:50%;object-fit:cover;bo
 
 /* Sticky needs body not to be a scroll container (html already clips x-overflow) */
 @supports (overflow:clip){body{overflow-x:clip}}
+
+/* ---- photo upgrade: hero photo, dark faded section backgrounds, card photos ---- */
+.hero-photo{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:38% 50%;display:block}
+@media(max-width:700px){.hero-photo{object-position:34% 50%}}
+.sec.why-sec{background:linear-gradient(180deg,rgba(23,21,24,.93) 0,rgba(23,21,24,.80) 45%,rgba(23,21,24,.94) 100%),url(../media/hero.jpg) center/cover no-repeat fixed}
+.why-sec .why{border-color:rgba(199,163,101,.18)}
+.why-sec .why>div{background:rgba(23,21,24,.55);-webkit-backdrop-filter:blur(3px);backdrop-filter:blur(3px);border-color:rgba(199,163,101,.14);overflow:hidden}
+.why-sec .why>div:hover{background:rgba(45,40,36,.62)}
+.why .wph{aspect-ratio:3/2;margin:-38px -32px 26px;overflow:hidden;position:relative;background:#171518}
+.why .wph::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(23,21,24,.15),rgba(23,21,24,.78))}
+.why .wph img{width:100%;height:100%;object-fit:cover;display:block;filter:saturate(.9) brightness(.85);transition:transform .8s var(--ease)}
+.why>div:hover .wph img{transform:scale(1.06)}
+@media(hover:none),(max-width:900px){.sec.why-sec{background-attachment:scroll}}
+.occ{background:linear-gradient(180deg,rgba(23,21,24,.18) 0,rgba(23,21,24,.86) 100%),var(--img,none) center/cover,linear-gradient(150deg,var(--a),var(--b))}
+.occ::before{opacity:.35}
+.cta.cta-photo{background:linear-gradient(rgba(23,21,24,.86),rgba(23,21,24,.78)),radial-gradient(ellipse at 50% 120%,rgba(199,163,101,.3),transparent 60%),url(../media/hero.jpg) 40% 50%/cover no-repeat,#171518}
+#hero::after{background:linear-gradient(90deg,rgba(23,21,24,.82) 0,rgba(23,21,24,.55) 45%,rgba(23,21,24,.25) 100%),radial-gradient(ellipse at 30% 50%,rgba(23,21,24,.25),rgba(23,21,24,.8) 90%),linear-gradient(transparent 65%,#171518)}
