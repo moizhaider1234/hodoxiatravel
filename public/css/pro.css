@@ -191,3 +191,6 @@ footer .fgrid img{width:104px;height:104px;border-radius:50%;object-fit:cover;bo
 @keyframes capPv{from{opacity:0;transform:translateX(-44px);filter:blur(6px)}to{opacity:1;transform:none;filter:none}}
 @media(max-width:760px){.fscroll{--stageh:max(520px,calc(100vh - 100px))}.fstage{top:78px}.fcard{border-radius:22px;--base:clamp(250px,40%,290px)}.fcars img{width:92%;max-height:42%}.fcap{left:12px;right:12px;bottom:12px;padding:16px 18px;grid-template-columns:1fr;gap:12px}.fcap p{font-size:15px}.fside{gap:16px}.fside .spec b{font-size:28px}.ftop{top:14px;left:14px;right:14px}.fpills button{padding:8px 12px;font-size:11px;letter-spacing:.08em}.fcount{display:none}.fnav{display:none}.fhint3{top:62px;gap:4px 16px;font-size:10px}}
 @media(prefers-reduced-motion:reduce){.cin{animation:none!important;opacity:1}}
+
+/* Sticky needs body not to be a scroll container (html already clips x-overflow) */
+@supports (overflow:clip){body{overflow-x:clip}}
