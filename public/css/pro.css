@@ -144,33 +144,3 @@ footer .fgrid img{width:104px;height:104px;border-radius:50%;object-fit:cover;bo
 .svc-sec .card:hover .ph img{transform:scale(1.06)}
 .svc-sec .card svg,.svc-sec .card h3,.svc-sec .card p{margin-left:24px;margin-right:24px}
 .svc-sec .card svg{margin-top:-52px;position:relative;z-index:2;background:#2d2d2d;margin-bottom:14px}
-
-/* ---- Fleet: pinned, scroll-driven class switching ---- */
-#fleet #frail,#fleet .fhint{display:none}
-#fleet.pin{height:340vh;padding:0;--ch:clamp(280px,38vh,470px)}
-#fleet.pin .wrap{position:sticky;top:0;height:100vh;display:flex;flex-direction:column;justify-content:center;padding-top:76px;padding-bottom:30px}
-#fleet.pin .sh{margin-bottom:0}#fleet.pin .sh .lede{display:none}
-#fleet.pin .sh+.tabs,#fleet.pin .tabs{margin-top:14px;margin-bottom:14px}
-#fleet.pin .wrap>p{display:none}
-#fleet.pin #carousel{height:var(--ch)}
-#fleet.pin .vcard{height:calc(var(--ch)*.72)}
-#fleet.pin .vctrl{top:calc(var(--ch)/2 - 25px)}
-#fleet.pin .vinfo{padding:0 40px 18px}
-#fleet.pin .vname{font-size:clamp(30px,3.6vw,48px);margin-bottom:4px}
-#fleet.pin #frail{display:flex;position:absolute;right:6px;top:50%;transform:translateY(-50%);flex-direction:column;gap:12px;z-index:6}
-#frail i{display:block;width:6px;height:34px;border-radius:3px;background:rgba(252,248,237,.2);transition:background .4s,height .4s var(--ease)}
-#frail i.on{background:var(--gold);height:52px}
-#fleet.pin .fhint{display:block;position:absolute;left:0;right:0;bottom:8px;text-align:center;font-size:12px;letter-spacing:.2em;text-transform:uppercase;color:var(--mute);transition:opacity .5s}
-#fleet.pin .fhint b{display:inline-block;animation:fbob 1.4s ease-in-out infinite}
-#fleet.pin.moved .fhint{opacity:0}
-@keyframes fbob{50%{transform:translateY(5px)}}
-/* slide up/down when the class changes */
-.showroom.out-dn{animation:fOutUp .3s cubic-bezier(.5,0,.9,.4) forwards}
-.showroom.out-up{animation:fOutDown .3s cubic-bezier(.5,0,.9,.4) forwards}
-.showroom.in-dn{animation:fInUp .72s var(--ease) both}
-.showroom.in-up{animation:fInDown .72s var(--ease) both}
-@keyframes fOutUp{to{opacity:0;transform:translateY(-70px) scale(.98)}}
-@keyframes fOutDown{to{opacity:0;transform:translateY(70px) scale(.98)}}
-@keyframes fInUp{from{opacity:0;transform:translateY(90px) scale(.98)}}
-@keyframes fInDown{from{opacity:0;transform:translateY(-90px) scale(.98)}}
-@media(max-width:1100px){#frail{display:none!important}}

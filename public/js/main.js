@@ -76,7 +76,7 @@ if($('#carousel')){
   const CATS={business:'Business class',first:'First class',suv:'Business SUVs'};
   let fleet=[],cat='business',idx=0,timer,hover=false,first=true;const track=$('#carousel'),scene=$('.scene');
   $('.scene').insertAdjacentHTML('beforeend','<i class="skyline"></i><div class="roadbed"></div>'+Array.from({length:9},(_,i)=>`<i class="streak" style="top:${18+i*8}%;--d:${i*40}ms"></i>`).join(''));
-  const tabs=()=>{$('#tabs').innerHTML=Object.entries(CATS).map(([k,v])=>`<button class="tab" role="tab" data-k="${k}" aria-selected="${k===cat}">${v}</button>`).join('');$$('.tab').forEach(b=>b.onclick=()=>tabPick(b.dataset.k))};
+  const tabs=()=>{$('#tabs').innerHTML=Object.entries(CATS).map(([k,v])=>`<button class="tab" role="tab" data-k="${k}" aria-selected="${k===cat}">${v}</button>`).join('');$$('.tab').forEach(b=>b.onclick=()=>{if(b.dataset.k===cat)return;cat=b.dataset.k;idx=0;first=true;tabs();build()})};
   const list=()=>fleet.filter(f=>f.category===cat);
   function build(){
     $$('.vcard',track).forEach(c=>c.remove());
@@ -114,37 +114,6 @@ if($('#carousel')){
   track.addEventListener('dragstart',e=>e.preventDefault());
   let io2=new IntersectionObserver(es=>es.forEach(x=>{if(x.isIntersecting){sr.classList.add('live');go(idx,true)}else clearInterval(timer)}),{threshold:.3});io2.observe(sr);
   getJSON('/api/fleet',null).then(d=>{fleet=Array.isArray(d)&&d.length?d:FALLBACK;tabs();build()});
-  /* ---- scroll-driven class switching (pinned section, slide up/down) ---- */
-  const KEYS=Object.keys(CATS),fl=$('#fleet');let pinned=false,busy=false,want=null,wdir=0;
-  function applyCat(k){cat=k;idx=0;first=true;tabs();build()}
-  function pick(k,dir){
-    if(!fleet.length||k===cat)return;
-    if(busy){want=k;wdir=dir;return}
-    dir=dir||(KEYS.indexOf(k)>KEYS.indexOf(cat)?1:-1);
-    const d=dir>0?'dn':'up';
-    if(reduce){applyCat(k);return}
-    busy=true;sr.classList.remove('out-dn','out-up','in-dn','in-up');void sr.offsetWidth;sr.classList.add('out-'+d);
-    setTimeout(()=>{applyCat(k);sr.classList.remove('out-'+d);sr.classList.add('in-'+d);
-      setTimeout(()=>{sr.classList.remove('in-'+d);busy=false;if(want&&want!==cat){const w=want;want=null;pick(w,wdir)}else want=null},720)},300);
-  }
-  function tabPick(k){
-    if(k===cat)return;
-    if(pinned){const n=KEYS.length,R=fl.offsetHeight-innerHeight,top=scrollY+fl.getBoundingClientRect().top+R*(KEYS.indexOf(k)+.5)/n;
-      const h=document.documentElement;h.style.scrollBehavior='auto';scrollTo(0,top);h.style.scrollBehavior='';onScroll()}
-    else pick(k)
-  }
-  function onScroll(){
-    if(!pinned)return;
-    const R=fl.offsetHeight-innerHeight,p=Math.min(.999,Math.max(0,-fl.getBoundingClientRect().top/R)),n=KEYS.length,i=Math.floor(p*n);
-    $$('#frail i').forEach((e,k)=>e.classList.toggle('on',k===i));
-    fl.style.setProperty('--fp',p.toFixed(3));
-    if(KEYS[i]!==cat){fl.classList.add('moved');pick(KEYS[i])}
-  }
-  function setPin(){pinned=innerWidth>=700&&innerHeight>=600&&!reduce;fl.classList.toggle('pin',pinned);onScroll()}
-  const rail=document.createElement('div');rail.id='frail';rail.setAttribute('aria-hidden','true');rail.innerHTML=KEYS.map(()=>'<i></i>').join('');
-  const hint=document.createElement('div');hint.className='fhint';hint.setAttribute('aria-hidden','true');hint.innerHTML='Scroll to explore classes <b>&#8595;</b>';
-  fl.querySelector('.wrap').append(rail,hint);
-  addEventListener('scroll',onScroll,{passive:true});addEventListener('resize',setPin);setPin();
 }
 if($('#sky')){
 // hero fallback: animated Gulfstream-style jet takeoff on a runway (shown if /media/gulfstream.mp4 is missing)
