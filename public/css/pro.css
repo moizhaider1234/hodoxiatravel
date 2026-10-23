@@ -263,3 +263,19 @@ body[data-page=about] .page-head{--ph:url(../media/chauffeur-bg.jpg)}
 .apt .aph img{width:100%;height:100%;object-fit:cover;display:block;transition:transform .8s var(--ease)}
 .apt:hover .aph img{transform:scale(1.07)}
 .page-head .lede{max-width:60ch}
+
+/* About (Blacklane-style structure) */
+.ab-two{display:grid;grid-template-columns:1fr 1.2fr;gap:70px;align-items:start}
+.ab-two h2{font-size:clamp(34px,4.6vw,60px);line-height:1.08}.ab-two .tag{color:var(--gold-hi);letter-spacing:.2em;text-transform:uppercase;font-size:13px;margin-bottom:12px}
+.ab-two p:not(.who-text):not(.tag){color:var(--mute);max-width:58ch;margin-bottom:16px}
+.prin{list-style:none;padding:0;margin:0;border-top:1px solid var(--line)}
+.prin li{display:grid;grid-template-columns:90px 1fr;gap:20px;padding:34px 0;border-bottom:1px solid var(--line);align-items:start}
+.prin span{font:500 54px/1 'Cormorant Garamond',serif;color:var(--gold)}
+.prin h3{font-size:34px;margin-bottom:6px}.prin p{max-width:60ch}
+.pull{font:italic 400 clamp(30px,4.6vw,60px)/1.2 'Cormorant Garamond',serif;color:#fcf8ed;text-align:center;max-width:22ch;margin:0 auto 20px}
+.pull::before{content:"";display:block;width:46px;height:1px;background:var(--gold);margin:0 auto 26px}
+.nx{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:22px}
+.nxc{display:flex;flex-direction:column;gap:8px;padding:34px 30px;border:1px solid var(--line);background:var(--panel);transition:transform .4s var(--ease),border-color .3s}
+.nxc:hover{transform:translateY(-6px);border-color:var(--gold)}
+.nxc h3{font-size:32px}.nxc em{font-style:normal;color:var(--gold);margin-top:10px;font-size:15px}
+@media(max-width:860px){.ab-two{grid-template-columns:1fr;gap:26px}.prin li{grid-template-columns:60px 1fr}.prin span{font-size:40px}}

@@ -1,7 +1,7 @@
 // Shared helpers. Files starting with "_" are not exposed as routes.
 const { neon } = require('@neondatabase/serverless');
 const sql = neon(process.env.DATABASE_URL);
-const CITIES = ['Toronto','Vancouver','Montreal','Calgary','Ottawa','Edmonton','Quebec City','Winnipeg','Halifax','Mississauga','Victoria','Niagara Falls'];
+const CITIES = ['Toronto','Vancouver','Montreal','Calgary','Ottawa','Edmonton','Quebec City','Winnipeg','Halifax','Mississauga','Victoria','Niagara Falls','Deer Lake'];
 const FLEET = [
  ['business','Mercedes E-Class','Quiet, composed and ideal for executive airport transfers.',3,3],
  ['business','BMW 5 Series','Sharp handling with a refined, tech-forward cabin.',3,3],

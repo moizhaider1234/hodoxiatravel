@@ -7,7 +7,7 @@ const toast=t=>{const e=$('#toast');e.textContent=t;e.classList.add('show');setT
 const slug=s=>s.toLowerCase().replace(/[^a-z0-9]+/g,'-');
 const getJSON=(u,fb)=>fetch(u).then(r=>r.ok?r.json():fb).catch(()=>fb);
 const FALLBACK=[['business','Mercedes E-Class','Quiet, composed and ideal for executive airport transfers.',3,3],['business','BMW 5 Series','Sharp handling with a refined, tech-forward cabin.',3,3],['business','Audi A6','Understated elegance with a smooth long-distance ride.',3,3],['business','Cadillac XTS','Generous rear legroom and a hushed cabin.',3,3],['first','Mercedes S-Class','The flagship of comfort: reclining rear seats and ambient calm.',3,3],['first','BMW 7 Series','Executive lounge comfort with commanding presence.',3,3],['first','Audi A8','Whisper-quiet luxury for arrivals that matter.',3,3],['suv','Mercedes V-Class','Boardroom-style seating for up to 6 guests.',6,6],['suv','Chevy Suburban','Room for the whole group and all their luggage.',6,7],['suv','Cadillac Escalade','Presence, space and plush captain seating.',6,6],['suv','GMC Yukon Denali','All-weather confidence across Canadian winters.',6,6]].map((f,i)=>({id:i,category:f[0],name:f[1],blurb:f[2],seats:f[3],bags:f[4]}));
-const CITYFB=['Toronto','Vancouver','Montreal','Calgary','Ottawa','Edmonton','Quebec City','Winnipeg','Halifax','Mississauga','Victoria','Niagara Falls'];
+const CITYFB=['Toronto','Vancouver','Montreal','Calgary','Ottawa','Edmonton','Quebec City','Winnipeg','Halifax','Mississauga','Victoria','Niagara Falls','Deer Lake'];
 // nav
 addEventListener('scroll',()=>$('#nav').classList.toggle('solid',scrollY>60),{passive:true});$('#nav').classList.toggle('solid',scrollY>60);
 $('#burger').onclick=()=>$('#menu').classList.toggle('open');
