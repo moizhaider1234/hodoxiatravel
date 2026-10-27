@@ -279,3 +279,12 @@ body[data-page=about] .page-head{--ph:url(../media/chauffeur-bg.jpg)}
 .nxc:hover{transform:translateY(-6px);border-color:var(--gold)}
 .nxc h3{font-size:32px}.nxc em{font-style:normal;color:var(--gold);margin-top:10px;font-size:15px}
 @media(max-width:860px){.ab-two{grid-template-columns:1fr;gap:26px}.prin li{grid-template-columns:60px 1fr}.prin span{font-size:40px}}
+
+/* contact details */
+.fcon{margin-top:16px}.fcon a{display:block;color:var(--gold-hi);padding:3px 0;overflow-wrap:anywhere}
+.cwrap{display:grid;grid-template-columns:1fr 1.25fr;gap:56px;align-items:start;max-width:1100px}
+.cinfo h2,.cformwrap h2{font-size:34px;margin-bottom:10px}.cinfo>p{color:var(--mute);margin-bottom:24px}
+.cbox{display:flex;flex-direction:column;gap:4px;padding:20px 22px;margin-bottom:14px;border:1px solid var(--line);background:var(--panel);transition:border-color .3s,transform .3s}
+a.cbox:hover{border-color:var(--gold);transform:translateX(4px)}
+.cbox span{font-size:12px;letter-spacing:.16em;text-transform:uppercase;color:var(--mute)}.cbox b{font:500 24px 'Cormorant Garamond',serif;color:var(--gold-hi);overflow-wrap:anywhere}
+@media(max-width:860px){.cwrap{grid-template-columns:1fr;gap:34px}}
