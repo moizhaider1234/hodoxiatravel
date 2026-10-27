@@ -288,3 +288,11 @@ body[data-page=about] .page-head{--ph:url(../media/chauffeur-bg.jpg)}
 a.cbox:hover{border-color:var(--gold);transform:translateX(4px)}
 .cbox span{font-size:12px;letter-spacing:.16em;text-transform:uppercase;color:var(--mute)}.cbox b{font:500 24px 'Cormorant Garamond',serif;color:var(--gold-hi);overflow-wrap:anywhere}
 @media(max-width:860px){.cwrap{grid-template-columns:1fr;gap:34px}}
+
+/* phone in header */
+.ntel{display:flex;align-items:center;gap:8px;margin-left:28px;color:var(--gold-hi);font-size:15px;letter-spacing:.04em;white-space:nowrap;transition:color .3s}
+.ntel svg{width:17px;height:17px;fill:none;stroke:currentColor;stroke-width:1.7;stroke-linejoin:round}
+.ntel:hover{color:#fcf8ed}
+@media(max-width:1060px){.ntel{margin-left:18px}}
+@media(max-width:860px){.ntel{order:1;margin-left:auto;margin-right:12px;font-size:14px}#burger{order:2}}
+@media(max-width:400px){.ntel span{display:none}.ntel{width:42px;height:42px;justify-content:center;border:1px solid var(--line);border-radius:50%}.ntel svg{width:19px;height:19px}}
