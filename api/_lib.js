@@ -24,7 +24,25 @@ function init() {
       await sql`INSERT INTO fleet(category,name,blurb,seats,bags,sort) VALUES(${f[0]},${f[1]},${f[2]},${f[3]},${f[4]},${i}) ON CONFLICT (name) DO NOTHING`;
   })();
 }
+
+// Sends a notification email through Resend (https://resend.com). Never throws: the record is already saved in the DB.
+const MAIL_TO = process.env.MAIL_TO || 'reservations@hodoxiatravels.com';
+const esc = v => String(v ?? '').replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
+async function notify(subject, rows, replyTo) {
+  const key = process.env.RESEND_API_KEY;
+  if (!key) { console.warn('RESEND_API_KEY not set: email not sent'); return false; }
+  const html = '<table style="font-family:Arial,sans-serif;font-size:15px;border-collapse:collapse">' +
+    rows.map(([k, v]) => `<tr><td style="padding:6px 14px 6px 0;color:#666;vertical-align:top">${esc(k)}</td><td style="padding:6px 0;white-space:pre-wrap">${esc(v) || '-'}</td></tr>`).join('') + '</table>';
+  const text = rows.map(([k, v]) => `${k}: ${v || '-'}`).join('\n');
+  try {
+    const r = await fetch('https://api.resend.com/emails', {
+      method: 'POST', headers: { Authorization: 'Bearer ' + key, 'Content-Type': 'application/json' },
+      body: JSON.stringify({ from: process.env.MAIL_FROM || 'Hodoxia Travel <onboarding@resend.dev>', to: [MAIL_TO], reply_to: replyTo, subject, html, text }) });
+    if (!r.ok) console.error('Email failed', r.status, await r.text());
+    return r.ok;
+  } catch (e) { console.error('Email error', e); return false; }
+}
 const clean = (v, n = 300) => String(v ?? '').trim().slice(0, n);
 const emailOk = e => /^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(e);
 const wrap = fn => async (req, res) => { try { await init(); await fn(req, res); } catch (e) { console.error(e); res.status(500).json({ error: 'Server error. Please try again.' }); } };
-module.exports = { sql, CITIES, clean, emailOk, wrap };
+module.exports = { sql, CITIES, clean, emailOk, wrap, notify };
