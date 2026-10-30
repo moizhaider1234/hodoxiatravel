@@ -1,0 +1,18 @@
+# Photo credits
+Photos are from Wikimedia Commons (licences noted per file). Attribution:
+- YYZ: Toronto Pearson Airport-Terminal 1 by Qyd (CC BY 2.5)
+- YVR: Terminal of Vancouver Intl Airport by Weixi Zeng (CC BY-SA 3.0)
+- YUL: Montreal Trudeau international style terminal by airbus777 (CC BY 2.0)
+- YYC: Calgary International Airport by Milan Suvajac (CC BY-SA 4.0)
+- YOW: Centre Block - Parliament Hill by Saffron Blaze (CC BY-SA 3.0)
+- YEG: Edmonton International Airport terminal 2023 by OhanaUnitedTalk (CC BY-SA 4.0)
+- YWG: Winnipeg New Airport Terminal 3 by Techman224 (CC BY-SA 3.0)
+- YHZ: Halifax Stanfield International Airport by Dennis G. Jarvis (CC BY-SA 2.0)
+- YYJ: Harbour Air floatplane at Victoria by Guilhem Vellut (CC BY 2.0)
+- YQB: Aeroport Jean Lesage by Harfang (CC BY 3.0)
+- Niagara Falls: Horseshoe Falls view by Helen Filatova (CC BY 2.0)
+- Whistler: by Richie Diesterheft (CC BY-SA 2.0)
+- Quebec: Caleche horses in Vieux-Quebec by Wilfredor (CC BY-SA 4.0)
+- Banff: Peyto Lake by Tobias Alt (CC BY-SA 4.0)
+- Ottawa: Rideau Canal locks by Mhsheikholeslami (CC BY-SA 4.0)
+- Toronto: Gardiner Expressway at night by Canmenwalker (CC BY 4.0)
