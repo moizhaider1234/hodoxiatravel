@@ -43,8 +43,12 @@ SLOTS = {
   "extra-hotel": ["luxury hotel entrance doorman"],
  },
 }
-PER_QUERY = 3
-UA = {"User-Agent": "HodoxiaPhotoBot/1.0 (website image research)"}
+PER_QUERY = 4
+UA = {"User-Agent": "HodoxiaPhotoBot/1.0 (https://github.com/moizhaider1234/hodoxiatravel; image research for a chauffeur website)"}
+os.makedirs("sheets", exist_ok=True)
+LOG = open("sheets/log.txt", "w")
+def log(*a):
+    m = " ".join(str(x) for x in a); print(m); LOG.write(m + "\n"); LOG.flush()
 
 def search(q):
     for attempt in range(3):
@@ -55,8 +59,36 @@ def search(q):
             if r.status_code == 429: time.sleep(20); continue
             r.raise_for_status(); return r.json().get("results", [])
         except Exception as e:
-            print("search fail", q, e); time.sleep(5)
+            log("search fail", q, e); time.sleep(5)
     return []
+
+
+BAD = ("map", "logo", "flag", "diagram", "coat", "seal", "locator", "plan", "chart", "poster", "stamp", "crest", "icon", "svg", "panorama_of", "interior")
+def commons(q):
+    out = []
+    try:
+        r = requests.get("https://commons.wikimedia.org/w/api.php", headers=UA, timeout=30, params={
+            "action": "query", "format": "json", "generator": "search", "gsrsearch": q + " filetype:bitmap",
+            "gsrnamespace": 6, "gsrlimit": 25, "prop": "imageinfo", "iiprop": "url|size|mime|extmetadata", "iiurlwidth": 1600})
+        r.raise_for_status()
+        pages = (r.json().get("query") or {}).get("pages") or {}
+        for p in sorted(pages.values(), key=lambda x: x.get("index", 99)):
+            ii = (p.get("imageinfo") or [{}])[0]
+            title = p.get("title", "")
+            if ii.get("mime") != "image/jpeg" or ii.get("width", 0) < 1400: continue
+            if ii.get("width", 1) < ii.get("height", 1) * 1.1 and "portrait" not in q: continue
+            if any(b in title.lower() for b in BAD): continue
+            md = ii.get("extmetadata") or {}
+            lic = (md.get("LicenseShortName") or {}).get("value", "")
+            if "nc" in lic.lower().split("-"): continue
+            artist = (md.get("Artist") or {}).get("value", "")
+            import re as _re
+            artist = _re.sub("<[^>]+>", "", artist)[:80]
+            out.append({"url": ii.get("thumburl") or ii.get("url"), "thumbnail": None, "title": title, "creator": artist,
+                        "license": lic, "license_version": "", "foreign_landing_url": ii.get("descriptionurl"), "source": "wikimedia commons"})
+    except Exception as e:
+        log("commons fail", q, e)
+    return out
 
 def fetch(res):
     for u in (res.get("url"), res.get("thumbnail")):
@@ -69,7 +101,7 @@ def fetch(res):
                 if im.width > 1600: im = im.resize((1600, int(im.height * 1600 / im.width)))
                 return im
         except Exception as e:
-            print("dl fail", u[:80], e)
+            log("dl fail", u[:90], e)
     return None
 
 credits = {}
@@ -80,7 +112,9 @@ for group, slots in SLOTS.items():
         got = []
         for qi, q in enumerate(queries):
             n = 0
-            for res in search(q):
+            results = commons(q); time.sleep(1); results += search(q)
+            log(slot, "|", q, "|", len(results), "results")
+            for res in results:
                 if n >= PER_QUERY: break
                 if res["url"] in [g[2] for g in got]: continue
                 im = fetch(res)
