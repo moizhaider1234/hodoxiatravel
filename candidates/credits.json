@@ -1,114 +1,1034 @@
 {
  "yyz/yyz__q0_0.jpg": {
   "query": "Toronto skyline CN Tower",
-  "title": "Toronto City Skyline",
-  "creator": null,
-  "license": "cc0 1.0",
-  "page": "https://www.rawpixel.com/image/6080567/toronto-city-skyline",
-  "source": "rawpixel"
+  "title": "File:Sunset Toronto Skyline Panorama Crop from Snake Island.jpg",
+  "creator": "Jchmrt",
+  "license": "CC BY-SA 4.0 ",
+  "page": "https://commons.wikimedia.org/wiki/File:Sunset_Toronto_Skyline_Panorama_Crop_from_Snake_Island.jpg",
+  "source": "wikimedia commons"
  },
  "yyz/yyz__q0_1.jpg": {
   "query": "Toronto skyline CN Tower",
-  "title": "Toronto City Skyline",
-  "creator": null,
-  "license": "cc0 1.0",
-  "page": "https://www.rawpixel.com/image/6080564/toronto-city-skyline",
-  "source": "rawpixel"
+  "title": "File:Toronto - ON - Skyline10.jpg",
+  "creator": "Taxiarchos228",
+  "license": "FAL ",
+  "page": "https://commons.wikimedia.org/wiki/File:Toronto_-_ON_-_Skyline10.jpg",
+  "source": "wikimedia commons"
+ },
+ "yyz/yyz__q0_2.jpg": {
+  "query": "Toronto skyline CN Tower",
+  "title": "File:122 - Toronto - Septembre 2009.jpg",
+  "creator": "Martin St-Amant (S23678)",
+  "license": "CC BY-SA 3.0 ",
+  "page": "https://commons.wikimedia.org/wiki/File:122_-_Toronto_-_Septembre_2009.jpg",
+  "source": "wikimedia commons"
+ },
+ "yyz/yyz__q0_3.jpg": {
+  "query": "Toronto skyline CN Tower",
+  "title": "File:Toronto - ON - Skyline bei Nacht.jpg",
+  "creator": "Wladyslaw (talk)",
+  "license": "CC BY-SA 3.0 ",
+  "page": "https://commons.wikimedia.org/wiki/File:Toronto_-_ON_-_Skyline_bei_Nacht.jpg",
+  "source": "wikimedia commons"
+ },
+ "yyz/yyz__q1_0.jpg": {
+  "query": "Toronto Pearson airport terminal",
+  "title": "File:Toronto Pearson Airport-Terminal 1.JPG",
+  "creator": "Qyd",
+  "license": "CC BY 2.5 ",
+  "page": "https://commons.wikimedia.org/wiki/File:Toronto_Pearson_Airport-Terminal_1.JPG",
+  "source": "wikimedia commons"
+ },
+ "yyz/yyz__q1_1.jpg": {
+  "query": "Toronto Pearson airport terminal",
+  "title": "File:Toronto Pearson Airport - Terminal 1.JPG",
+  "creator": "Qyd",
+  "license": "CC BY 2.5 ",
+  "page": "https://commons.wikimedia.org/wiki/File:Toronto_Pearson_Airport_-_Terminal_1.JPG",
+  "source": "wikimedia commons"
+ },
+ "yyz/yyz__q1_2.jpg": {
+  "query": "Toronto Pearson airport terminal",
+  "title": "File:Terminal 1, Toronto Pearson International Airport, angled view.jpg",
+  "creator": "Daniel Case",
+  "license": "CC BY-SA 3.0 ",
+  "page": "https://commons.wikimedia.org/wiki/File:Terminal_1,_Toronto_Pearson_International_Airport,_angled_view.jpg",
+  "source": "wikimedia commons"
+ },
+ "yyz/yyz__q1_3.jpg": {
+  "query": "Toronto Pearson airport terminal",
+  "title": "File:Baggage claim carousels at Terminal 1 of Toronto Pearson International Airport (YYZ) (2).jpg",
+  "creator": "Silver Dovelet",
+  "license": "CC BY-SA 4.0 ",
+  "page": "https://commons.wikimedia.org/wiki/File:Baggage_claim_carousels_at_Terminal_1_of_Toronto_Pearson_International_Airport_(YYZ)_(2).jpg",
+  "source": "wikimedia commons"
+ },
+ "yvr/yvr__q0_0.jpg": {
+  "query": "Vancouver skyline mountains",
+  "title": "File:Vancouver dusk pano.jpg",
+  "creator": "Mfield, Matthew Field, http://www.photography.mattfield.com",
+  "license": "CC BY-SA 3.0 ",
+  "page": "https://commons.wikimedia.org/wiki/File:Vancouver_dusk_pano.jpg",
+  "source": "wikimedia commons"
+ },
+ "yvr/yvr__q0_1.jpg": {
+  "query": "Vancouver skyline mountains",
+  "title": "File:Vancouver Skyline and Mountains.jpg",
+  "creator": "Kyle Pearce/ DIY Genius",
+  "license": "CC BY-SA 2.0 ",
+  "page": "https://commons.wikimedia.org/wiki/File:Vancouver_Skyline_and_Mountains.jpg",
+  "source": "wikimedia commons"
+ },
+ "yvr/yvr__q0_2.jpg": {
+  "query": "Vancouver skyline mountains",
+  "title": "File:Skyline of Vancouver, BC.jpg",
+  "creator": "Quintin Soloviev",
+  "license": "CC BY 4.0 ",
+  "page": "https://commons.wikimedia.org/wiki/File:Skyline_of_Vancouver,_BC.jpg",
+  "source": "wikimedia commons"
+ },
+ "yvr/yvr__q0_3.jpg": {
+  "query": "Vancouver skyline mountains",
+  "title": "File:Vancouver Skyline Under the Morning Sunshine1.jpg",
+  "creator": "David Zhang",
+  "license": "CC BY-SA 2.0 ",
+  "page": "https://commons.wikimedia.org/wiki/File:Vancouver_Skyline_Under_the_Morning_Sunshine1.jpg",
+  "source": "wikimedia commons"
  },
  "yvr/yvr__q1_0.jpg": {
   "query": "Vancouver International Airport terminal",
-  "title": "CBP International Travel Preclearance Operations",
-  "creator": null,
-  "license": "cc0 1.0",
-  "page": "https://www.rawpixel.com/image/8738710/photo-image-public-domain-travel",
-  "source": "rawpixel"
+  "title": "File:Terminal of Vancouver Intl Airport - panoramio.jpg",
+  "creator": "Weixi Zeng",
+  "license": "CC BY-SA 3.0 ",
+  "page": "https://commons.wikimedia.org/wiki/File:Terminal_of_Vancouver_Intl_Airport_-_panoramio.jpg",
+  "source": "wikimedia commons"
+ },
+ "yvr/yvr__q1_1.jpg": {
+  "query": "Vancouver International Airport terminal",
+  "title": "File:Harbour Air terminal at Vancouver Harbour 2025.jpg",
+  "creator": "Tyan Cherepuschak",
+  "license": "CC BY-SA 4.0 ",
+  "page": "https://commons.wikimedia.org/wiki/File:Harbour_Air_terminal_at_Vancouver_Harbour_2025.jpg",
+  "source": "wikimedia commons"
+ },
+ "yvr/yvr__q1_2.jpg": {
+  "query": "Vancouver International Airport terminal",
+  "title": "File:Vancouver Airport Skytrain Station 2008-04-22.JPG",
+  "creator": "Michael Berry",
+  "license": "CC BY 3.0 ",
+  "page": "https://commons.wikimedia.org/wiki/File:Vancouver_Airport_Skytrain_Station_2008-04-22.JPG",
+  "source": "wikimedia commons"
+ },
+ "yvr/yvr__q1_3.jpg": {
+  "query": "Vancouver International Airport terminal",
+  "title": "File:YVR International Terminal 2018.jpg",
+  "creator": "Wpcpey",
+  "license": "CC BY-SA 4.0 ",
+  "page": "https://commons.wikimedia.org/wiki/File:YVR_International_Terminal_2018.jpg",
+  "source": "wikimedia commons"
  },
  "yul/yul__q0_0.jpg": {
   "query": "Montreal skyline",
-  "title": "Montreal City",
-  "creator": "Leeroy",
-  "license": "cc0 1.0",
-  "page": "https://stocksnap.io/photo/montreal-city-FB6D3F13E4",
-  "source": "stocksnap"
+  "title": "File:Kondiaronk Belvedere, Montreal city, Canada.jpg",
+  "creator": "Wilfredor",
+  "license": "CC0 ",
+  "page": "https://commons.wikimedia.org/wiki/File:Kondiaronk_Belvedere,_Montreal_city,_Canada.jpg",
+  "source": "wikimedia commons"
  },
  "yul/yul__q0_1.jpg": {
   "query": "Montreal skyline",
-  "title": "dim skyline Montreal cloudy evening",
-  "creator": null,
-  "license": "cc0 1.0",
-  "page": "https://www.rawpixel.com/image/3294872/free-photo-image-aerial-view-building-cc0",
-  "source": "rawpixel"
+  "title": "File:Montreal Twilight Panorama 2006.jpg",
+  "creator": "Diliff",
+  "license": "CC BY-SA 3.0 ",
+  "page": "https://commons.wikimedia.org/wiki/File:Montreal_Twilight_Panorama_2006.jpg",
+  "source": "wikimedia commons"
+ },
+ "yul/yul__q0_2.jpg": {
+  "query": "Montreal skyline",
+  "title": "File:Montreal night view.jpg",
+  "creator": "Paolostefano1412",
+  "license": "CC BY-SA 3.0 ",
+  "page": "https://commons.wikimedia.org/wiki/File:Montreal_night_view.jpg",
+  "source": "wikimedia commons"
+ },
+ "yul/yul__q0_3.jpg": {
+  "query": "Montreal skyline",
+  "title": "File:Montreal - QC - Skyline.jpg",
+  "creator": "Taxiarchos228",
+  "license": "CC BY 3.0 ",
+  "page": "https://commons.wikimedia.org/wiki/File:Montreal_-_QC_-_Skyline.jpg",
+  "source": "wikimedia commons"
+ },
+ "yul/yul__q1_0.jpg": {
+  "query": "Montreal Trudeau airport terminal",
+  "title": "File:Montreal Trudeau international style terminal.jpg",
+  "creator": "airbus777",
+  "license": "CC BY 2.0 ",
+  "page": "https://commons.wikimedia.org/wiki/File:Montreal_Trudeau_international_style_terminal.jpg",
+  "source": "wikimedia commons"
+ },
+ "yul/yul__q1_1.jpg": {
+  "query": "Montreal Trudeau airport terminal",
+  "title": "File:Montr\u00e9al-Pierre Elliott Trudeau International Airport 0001 04.jpg",
+  "creator": "Wilfredor",
+  "license": "CC0 ",
+  "page": "https://commons.wikimedia.org/wiki/File:Montr%C3%A9al-Pierre_Elliott_Trudeau_International_Airport_0001_04.jpg",
+  "source": "wikimedia commons"
+ },
+ "yul/yul__q1_2.jpg": {
+  "query": "Montreal Trudeau airport terminal",
+  "title": "File:Montreal-Trudeau 25.JPG",
+  "creator": "Jeangagnon",
+  "license": "CC BY-SA 4.0 ",
+  "page": "https://commons.wikimedia.org/wiki/File:Montreal-Trudeau_25.JPG",
+  "source": "wikimedia commons"
+ },
+ "yul/yul__q1_3.jpg": {
+  "query": "Montreal Trudeau airport terminal",
+  "title": "File:Montreal-Trudeau 24.JPG",
+  "creator": "Jeangagnon",
+  "license": "CC BY-SA 4.0 ",
+  "page": "https://commons.wikimedia.org/wiki/File:Montreal-Trudeau_24.JPG",
+  "source": "wikimedia commons"
  },
  "yyc/yyc__q0_0.jpg": {
   "query": "Calgary skyline",
-  "title": "Calgary Skyline",
-  "creator": null,
-  "license": "cc0 1.0",
-  "page": "https://www.rawpixel.com/image/4022651/calgary-skyline",
-  "source": "rawpixel"
+  "title": "File:Calgary Skyline from the river.jpg",
+  "creator": "Mule hollandaise",
+  "license": "CC BY 4.0 ",
+  "page": "https://commons.wikimedia.org/wiki/File:Calgary_Skyline_from_the_river.jpg",
+  "source": "wikimedia commons"
  },
  "yyc/yyc__q0_1.jpg": {
   "query": "Calgary skyline",
-  "title": "Bankers Hall Calgary",
-  "creator": null,
-  "license": "cc0 1.0",
-  "page": "https://www.rawpixel.com/image/4024692/bankers-hall-calgary",
-  "source": "rawpixel"
+  "title": "File:Calgary Skyline from Prince's Island Park.jpg",
+  "creator": "Tamsintj",
+  "license": "CC BY-SA 4.0 ",
+  "page": "https://commons.wikimedia.org/wiki/File:Calgary_Skyline_from_Prince%27s_Island_Park.jpg",
+  "source": "wikimedia commons"
  },
  "yyc/yyc__q0_2.jpg": {
   "query": "Calgary skyline",
-  "title": "Suncor Energy Centre",
-  "creator": null,
-  "license": "cc0 1.0",
-  "page": "https://www.rawpixel.com/image/4025173/suncor-energy-centre",
-  "source": "rawpixel"
+  "title": "File:Calgary, Canada April 2022 - Skyline 2.jpg",
+  "creator": "Sharon Hahn Darlin",
+  "license": "CC BY 2.0 ",
+  "page": "https://commons.wikimedia.org/wiki/File:Calgary,_Canada_April_2022_-_Skyline_2.jpg",
+  "source": "wikimedia commons"
+ },
+ "yyc/yyc__q0_3.jpg": {
+  "query": "Calgary skyline",
+  "title": "File:WestJet 737 with Calgary skyline in background (Quintin Soloviev).jpg",
+  "creator": "Quintin Soloviev",
+  "license": "CC BY-SA 4.0 ",
+  "page": "https://commons.wikimedia.org/wiki/File:WestJet_737_with_Calgary_skyline_in_background_(Quintin_Soloviev).jpg",
+  "source": "wikimedia commons"
+ },
+ "yyc/yyc__q1_0.jpg": {
+  "query": "Calgary International Airport terminal",
+  "title": "File:Calgary AB Airport Calgary-International-Airport 2022-09-29.jpg",
+  "creator": "Milan Suvajac",
+  "license": "CC BY-SA 4.0 ",
+  "page": "https://commons.wikimedia.org/wiki/File:Calgary_AB_Airport_Calgary-International-Airport_2022-09-29.jpg",
+  "source": "wikimedia commons"
+ },
+ "yyc/yyc__q1_1.jpg": {
+  "query": "Calgary International Airport terminal",
+  "title": "File:Calgary AB Airport Calgary-International-Airport 2022-09-29 (3).jpg",
+  "creator": "Milan Suvajac",
+  "license": "CC BY-SA 4.0 ",
+  "page": "https://commons.wikimedia.org/wiki/File:Calgary_AB_Airport_Calgary-International-Airport_2022-09-29_(3).jpg",
+  "source": "wikimedia commons"
+ },
+ "yyc/yyc__q1_2.jpg": {
+  "query": "Calgary International Airport terminal",
+  "title": "File:Calgary AB Airport Calgary-International-Airport 2022-09-29 (21).jpg",
+  "creator": "Milan Suvajac",
+  "license": "CC BY-SA 4.0 ",
+  "page": "https://commons.wikimedia.org/wiki/File:Calgary_AB_Airport_Calgary-International-Airport_2022-09-29_(21).jpg",
+  "source": "wikimedia commons"
+ },
+ "yyc/yyc__q1_3.jpg": {
+  "query": "Calgary International Airport terminal",
+  "title": "File:Calgary AB Airport Calgary-International-Airport 2022-09-29 (2).jpg",
+  "creator": "Milan Suvajac",
+  "license": "CC BY-SA 4.0 ",
+  "page": "https://commons.wikimedia.org/wiki/File:Calgary_AB_Airport_Calgary-International-Airport_2022-09-29_(2).jpg",
+  "source": "wikimedia commons"
  },
  "yow/yow__q0_0.jpg": {
   "query": "Parliament Hill Ottawa",
-  "title": "Barrack Hill New Parliament Buildings",
-  "creator": "thegetty",
-  "license": "cc0 1.0",
-  "page": "https://www.rawpixel.com/image/14319939/barrack-hill-and-new-parliament-buildings-ottawa-cw-william-notman",
-  "source": "rawpixel"
+  "title": "File:Centre Block - Parliament Hill.jpg",
+  "creator": "Saffron Blaze",
+  "license": "CC BY-SA 3.0 ",
+  "page": "https://commons.wikimedia.org/wiki/File:Centre_Block_-_Parliament_Hill.jpg",
+  "source": "wikimedia commons"
+ },
+ "yow/yow__q0_1.jpg": {
+  "query": "Parliament Hill Ottawa",
+  "title": "File:Parliament Hill from the Ottawa River.JPG",
+  "creator": "\u00d3\u00f0inn",
+  "license": "CC BY-SA 2.5 ca ",
+  "page": "https://commons.wikimedia.org/wiki/File:Parliament_Hill_from_the_Ottawa_River.JPG",
+  "source": "wikimedia commons"
+ },
+ "yow/yow__q0_2.jpg": {
+  "query": "Parliament Hill Ottawa",
+  "title": "File:Pro-Palestinian Demonstration, Parliament Hill, Ottawa.jpg",
+  "creator": "ImagePerson",
+  "license": "CC BY 4.0 ",
+  "page": "https://commons.wikimedia.org/wiki/File:Pro-Palestinian_Demonstration,_Parliament_Hill,_Ottawa.jpg",
+  "source": "wikimedia commons"
+ },
+ "yow/yow__q0_3.jpg": {
+  "query": "Parliament Hill Ottawa",
+  "title": "File:Parliament Hill Ottawa by Louie Luo.jpg",
+  "creator": "Louie Luo",
+  "license": "CC BY-SA 4.0 ",
+  "page": "https://commons.wikimedia.org/wiki/File:Parliament_Hill_Ottawa_by_Louie_Luo.jpg",
+  "source": "wikimedia commons"
+ },
+ "yow/yow__q1_0.jpg": {
+  "query": "Ottawa Macdonald-Cartier airport terminal",
+  "title": "File:YOW terminal.JPG",
+  "creator": "P199",
+  "license": "CC BY-SA 3.0 ",
+  "page": "https://commons.wikimedia.org/wiki/File:YOW_terminal.JPG",
+  "source": "wikimedia commons"
+ },
+ "yow/yow__q1_1.jpg": {
+  "query": "Ottawa Macdonald-Cartier airport terminal",
+  "title": "File:Ottawa Airport (2082947682).jpg",
+  "creator": "dave_7 from Lethbridge, Canada",
+  "license": "CC BY-SA 2.0 ",
+  "page": "https://commons.wikimedia.org/wiki/File:Ottawa_Airport_(2082947682).jpg",
+  "source": "wikimedia commons"
+ },
+ "yow/yow__q1_2.jpg": {
+  "query": "Ottawa Macdonald-Cartier airport terminal",
+  "title": "File:Ottawa Airport (2082947682) (straighened).jpg",
+  "creator": "dave_7 from Lethbridge, Canada",
+  "license": "CC BY-SA 2.0 ",
+  "page": "https://commons.wikimedia.org/wiki/File:Ottawa_Airport_(2082947682)_(straighened).jpg",
+  "source": "wikimedia commons"
+ },
+ "yow/yow__q1_3.jpg": {
+  "query": "Ottawa Macdonald-Cartier airport terminal",
+  "title": "File:Ottawa Terminal Building (3097087294).jpg",
+  "creator": "Shawn from Airdrie, Canada",
+  "license": "CC BY-SA 2.0 ",
+  "page": "https://commons.wikimedia.org/wiki/File:Ottawa_Terminal_Building_(3097087294).jpg",
+  "source": "wikimedia commons"
+ },
+ "yeg/yeg__q0_0.jpg": {
+  "query": "Edmonton skyline",
+  "title": "File:Walterdale Bridge into downtown Edmonton, Alberta, 2026-09-26.jpg",
+  "creator": "Chris Woodrich",
+  "license": "CC BY-SA 4.0 ",
+  "page": "https://commons.wikimedia.org/wiki/File:Walterdale_Bridge_into_downtown_Edmonton,_Alberta,_2026-09-26.jpg",
+  "source": "wikimedia commons"
+ },
+ "yeg/yeg__q0_1.jpg": {
+  "query": "Edmonton skyline",
+  "title": "File:Edmonton Skyline July 2020.jpg",
+  "creator": "Matthew Boonstra",
+  "license": "CC BY-SA 4.0 ",
+  "page": "https://commons.wikimedia.org/wiki/File:Edmonton_Skyline_July_2020.jpg",
+  "source": "wikimedia commons"
+ },
+ "yeg/yeg__q0_2.jpg": {
+  "query": "Edmonton skyline",
+  "title": "File:Edmonton Skyline 2020.jpg",
+  "creator": "Matthew Boonstra",
+  "license": "CC BY-SA 4.0 ",
+  "page": "https://commons.wikimedia.org/wiki/File:Edmonton_Skyline_2020.jpg",
+  "source": "wikimedia commons"
+ },
+ "yeg/yeg__q0_3.jpg": {
+  "query": "Edmonton skyline",
+  "title": "File:North Edmonton Skyline.jpg",
+  "creator": "Thankyoubaby",
+  "license": "CC BY-SA 3.0 ",
+  "page": "https://commons.wikimedia.org/wiki/File:North_Edmonton_Skyline.jpg",
+  "source": "wikimedia commons"
+ },
+ "yeg/yeg__q1_0.jpg": {
+  "query": "Edmonton International Airport terminal",
+  "title": "File:Edmonton International Airport terminal 2023.jpg",
+  "creator": "OhanaUnitedTalk page",
+  "license": "CC BY-SA 4.0 ",
+  "page": "https://commons.wikimedia.org/wiki/File:Edmonton_International_Airport_terminal_2023.jpg",
+  "source": "wikimedia commons"
+ },
+ "yeg/yeg__q1_1.jpg": {
+  "query": "Edmonton International Airport terminal",
+  "title": "File:Edmonton International Airport departures area.jpg",
+  "creator": "Khoshhat",
+  "license": "CC BY-SA 4.0 ",
+  "page": "https://commons.wikimedia.org/wiki/File:Edmonton_International_Airport_departures_area.jpg",
+  "source": "wikimedia commons"
+ },
+ "yeg/yeg__q1_2.jpg": {
+  "query": "Edmonton International Airport terminal",
+  "title": "File:Edmonton International Airport departures area Covid-19 impact.jpg",
+  "creator": "Khoshhat",
+  "license": "CC BY-SA 4.0 ",
+  "page": "https://commons.wikimedia.org/wiki/File:Edmonton_International_Airport_departures_area_Covid-19_impact.jpg",
+  "source": "wikimedia commons"
+ },
+ "yeg/yeg__q1_3.jpg": {
+  "query": "Edmonton International Airport terminal",
+  "title": "File:Renaissance Edmonton Airport Hotel.jpg",
+  "creator": "OhanaUnitedTalk page",
+  "license": "CC BY-SA 3.0 ",
+  "page": "https://commons.wikimedia.org/wiki/File:Renaissance_Edmonton_Airport_Hotel.jpg",
+  "source": "wikimedia commons"
+ },
+ "ywg/ywg__q0_0.jpg": {
+  "query": "Winnipeg skyline",
+  "title": "File:Canadian Museum for Human Rights and downtown Winnipeg skyline at night, Manitoba, Canada.jpg",
+  "creator": "Ethan Sahagun",
+  "license": "CC BY 4.0 ",
+  "page": "https://commons.wikimedia.org/wiki/File:Canadian_Museum_for_Human_Rights_and_downtown_Winnipeg_skyline_at_night,_Manitoba,_Canada.jpg",
+  "source": "wikimedia commons"
+ },
+ "ywg/ywg__q0_1.jpg": {
+  "query": "Winnipeg skyline",
+  "title": "File:Winnipeg skyline and WINNIPEG sign at The Forks, Manitoba, Canada.jpg",
+  "creator": "Ethan Sahagun",
+  "license": "CC BY 4.0 ",
+  "page": "https://commons.wikimedia.org/wiki/File:Winnipeg_skyline_and_WINNIPEG_sign_at_The_Forks,_Manitoba,_Canada.jpg",
+  "source": "wikimedia commons"
+ },
+ "ywg/ywg__q0_2.jpg": {
+  "query": "Winnipeg skyline",
+  "title": "File:Winnipeg skyline snowy.jpg",
+  "creator": "Quintin Soloviev",
+  "license": "CC0 ",
+  "page": "https://commons.wikimedia.org/wiki/File:Winnipeg_skyline_snowy.jpg",
+  "source": "wikimedia commons"
+ },
+ "ywg/ywg__q0_3.jpg": {
+  "query": "Winnipeg skyline",
+  "title": "File:Skyline of Winnipeg with railroad.jpg",
+  "creator": "Quintin Soloviev",
+  "license": "CC BY 4.0 ",
+  "page": "https://commons.wikimedia.org/wiki/File:Skyline_of_Winnipeg_with_railroad.jpg",
+  "source": "wikimedia commons"
+ },
+ "ywg/ywg__q1_0.jpg": {
+  "query": "Winnipeg Richardson airport terminal",
+  "title": "File:Winnipeg James Armstrong Richardson International Airport, Winnipeg (502668) (16493144659).jpg",
+  "creator": "Robert Linsdell from St. Andrews, Canada",
+  "license": "CC BY 2.0 ",
+  "page": "https://commons.wikimedia.org/wiki/File:Winnipeg_James_Armstrong_Richardson_International_Airport,_Winnipeg_(502668)_(16493144659).jpg",
+  "source": "wikimedia commons"
+ },
+ "ywg/ywg__q1_1.jpg": {
+  "query": "Winnipeg Richardson airport terminal",
+  "title": "File:Winnipeg New Airport Terminal 3.JPG",
+  "creator": "Techman224",
+  "license": "CC BY-SA 3.0 ",
+  "page": "https://commons.wikimedia.org/wiki/File:Winnipeg_New_Airport_Terminal_3.JPG",
+  "source": "wikimedia commons"
+ },
+ "ywg/ywg__q1_2.jpg": {
+  "query": "Winnipeg Richardson airport terminal",
+  "title": "File:Winnipeg New Airport Terminal 2.JPG",
+  "creator": "Techman224",
+  "license": "CC BY-SA 3.0 ",
+  "page": "https://commons.wikimedia.org/wiki/File:Winnipeg_New_Airport_Terminal_2.JPG",
+  "source": "wikimedia commons"
+ },
+ "ywg/ywg__q1_3.jpg": {
+  "query": "Winnipeg Richardson airport terminal",
+  "title": "File:Winnipeg New Airport Terminal 6.JPG",
+  "creator": "Techman224",
+  "license": "CC BY-SA 3.0 ",
+  "page": "https://commons.wikimedia.org/wiki/File:Winnipeg_New_Airport_Terminal_6.JPG",
+  "source": "wikimedia commons"
+ },
+ "yhz/yhz__q0_0.jpg": {
+  "query": "Halifax waterfront harbour",
+  "title": "File:Construction on the Halifax Waterfront in August 2019.jpg",
+  "creator": "WabbitWanderer from London, Canada",
+  "license": "CC BY-SA 2.0 ",
+  "page": "https://commons.wikimedia.org/wiki/File:Construction_on_the_Halifax_Waterfront_in_August_2019.jpg",
+  "source": "wikimedia commons"
+ },
+ "yhz/yhz__q0_1.jpg": {
+  "query": "Halifax waterfront harbour",
+  "title": "File:2022-08-15 01 Wide angle view of Halifax skyline, Nova Scotia, Canada.jpg",
+  "creator": "Gordon Leggett",
+  "license": "CC BY-SA 4.0 ",
+  "page": "https://commons.wikimedia.org/wiki/File:2022-08-15_01_Wide_angle_view_of_Halifax_skyline,_Nova_Scotia,_Canada.jpg",
+  "source": "wikimedia commons"
+ },
+ "yhz/yhz__q0_2.jpg": {
+  "query": "Halifax waterfront harbour",
+  "title": "File:View of Halifax Harbour from Maritime Centre Elevator (48633346888).jpg",
+  "creator": "Paulo O from Halifax, Canada",
+  "license": "CC BY 2.0 ",
+  "page": "https://commons.wikimedia.org/wiki/File:View_of_Halifax_Harbour_from_Maritime_Centre_Elevator_(48633346888).jpg",
+  "source": "wikimedia commons"
+ },
+ "yhz/yhz__q0_3.jpg": {
+  "query": "Halifax waterfront harbour",
+  "title": "File:Along the Halifax waterfront (July 1 2007) (687032153).jpg",
+  "creator": "RicLaf from Halifax, Canada",
+  "license": "CC BY-SA 2.0 ",
+  "page": "https://commons.wikimedia.org/wiki/File:Along_the_Halifax_waterfront_(July_1_2007)_(687032153).jpg",
+  "source": "wikimedia commons"
+ },
+ "yhz/yhz__q1_0.jpg": {
+  "query": "Halifax Stanfield airport terminal",
+  "title": "File:Nova Scotia DSC07149 - Halifax Stanfield International Airport (35073011524).jpg",
+  "creator": "Dennis G. Jarvis",
+  "license": "CC BY-SA 2.0 ",
+  "page": "https://commons.wikimedia.org/wiki/File:Nova_Scotia_DSC07149_-_Halifax_Stanfield_International_Airport_(35073011524).jpg",
+  "source": "wikimedia commons"
+ },
+ "yhz/yhz__q1_1.jpg": {
+  "query": "Halifax Stanfield airport terminal",
+  "title": "File:Halifax Stanfield International Airport (5) (21302289652).jpg",
+  "creator": "Daniel from Glasgow, United Kingdom",
+  "license": "CC BY 2.0 ",
+  "page": "https://commons.wikimedia.org/wiki/File:Halifax_Stanfield_International_Airport_(5)_(21302289652).jpg",
+  "source": "wikimedia commons"
+ },
+ "yhz/yhz__q1_2.jpg": {
+  "query": "Halifax Stanfield airport terminal",
+  "title": "File:Halifax Stanfield International Airport check-in hall.jpg",
+  "creator": "Ben MacLeod",
+  "license": "CC BY-SA 4.0 ",
+  "page": "https://commons.wikimedia.org/wiki/File:Halifax_Stanfield_International_Airport_check-in_hall.jpg",
+  "source": "wikimedia commons"
+ },
+ "yhz/yhz__q1_3.jpg": {
+  "query": "Halifax Stanfield airport terminal",
+  "title": "File:Halifax Stanfield International Airport (4) (20691844713).jpg",
+  "creator": "Daniel from Glasgow, United Kingdom",
+  "license": "CC BY 2.0 ",
+  "page": "https://commons.wikimedia.org/wiki/File:Halifax_Stanfield_International_Airport_(4)_(20691844713).jpg",
+  "source": "wikimedia commons"
+ },
+ "yyj/yyj__q0_0.jpg": {
+  "query": "Victoria Inner Harbour British Columbia",
+  "title": "File:C-GLCP @ Victoria (7715354752).jpg",
+  "creator": "Guilhem Vellut from Annecy, France",
+  "license": "CC BY 2.0 ",
+  "page": "https://commons.wikimedia.org/wiki/File:C-GLCP_@_Victoria_(7715354752).jpg",
+  "source": "wikimedia commons"
+ },
+ "yyj/yyj__q0_1.jpg": {
+  "query": "Victoria Inner Harbour British Columbia",
+  "title": "File:Victoria Harbour Airport.jpg",
+  "creator": "ConifersOfGnarnia",
+  "license": "CC BY 4.0 ",
+  "page": "https://commons.wikimedia.org/wiki/File:Victoria_Harbour_Airport.jpg",
+  "source": "wikimedia commons"
+ },
+ "yyj/yyj__q0_2.jpg": {
+  "query": "Victoria Inner Harbour British Columbia",
+  "title": "File:Inner Harbour, Victoria (4044177343).jpg",
+  "creator": "Hardo M\u00fcller from Bonn, Germany",
+  "license": "CC BY-SA 2.0 ",
+  "page": "https://commons.wikimedia.org/wiki/File:Inner_Harbour,_Victoria_(4044177343).jpg",
+  "source": "wikimedia commons"
+ },
+ "yyj/yyj__q0_3.jpg": {
+  "query": "Victoria Inner Harbour British Columbia",
+  "title": "File:The Empress and Inner Harbour, Victoria, southwest view 20240827 1.jpg",
+  "creator": "DXR",
+  "license": "CC BY-SA 4.0 ",
+  "page": "https://commons.wikimedia.org/wiki/File:The_Empress_and_Inner_Harbour,_Victoria,_southwest_view_20240827_1.jpg",
+  "source": "wikimedia commons"
+ },
+ "yyj/yyj__q1_0.jpg": {
+  "query": "Victoria International Airport British Columbia",
+  "title": "File:Runway at Victoria International Airport.jpg",
+  "creator": "Hannah Clover",
+  "license": "CC BY 4.0 ",
+  "page": "https://commons.wikimedia.org/wiki/File:Runway_at_Victoria_International_Airport.jpg",
+  "source": "wikimedia commons"
+ },
+ "yyj/yyj__q1_1.jpg": {
+  "query": "Victoria International Airport British Columbia",
+  "title": "File:YYJ-Terminal.jpg",
+  "creator": "Ryan Bushby (H at en.wikipedia)",
+  "license": "CC BY 2.5 ",
+  "page": "https://commons.wikimedia.org/wiki/File:YYJ-Terminal.jpg",
+  "source": "wikimedia commons"
+ },
+ "yyj/yyj__q1_2.jpg": {
+  "query": "Victoria International Airport British Columbia",
+  "title": "File:Victoria Harbor Airport, Victoria, British Columbia, Canada 20.jpg",
+  "creator": "Michal Klajban",
+  "license": "CC BY-SA 4.0 ",
+  "page": "https://commons.wikimedia.org/wiki/File:Victoria_Harbor_Airport,_Victoria,_British_Columbia,_Canada_20.jpg",
+  "source": "wikimedia commons"
+ },
+ "yyj/yyj__q1_3.jpg": {
+  "query": "Victoria International Airport British Columbia",
+  "title": "File:HorizonAirDash8-Q400N445QX YYJJuly2019.jpg",
+  "creator": "Johnnyw3",
+  "license": "CC BY-SA 4.0 ",
+  "page": "https://commons.wikimedia.org/wiki/File:HorizonAirDash8-Q400N445QX_YYJJuly2019.jpg",
+  "source": "wikimedia commons"
+ },
+ "yqb/yqb__q0_0.jpg": {
+  "query": "Chateau Frontenac Quebec City",
+  "title": "File:Chateau Frontenac at dusk in Quebec City.jpg",
+  "creator": "Wilfredor",
+  "license": "CC0 ",
+  "page": "https://commons.wikimedia.org/wiki/File:Chateau_Frontenac_at_dusk_in_Quebec_City.jpg",
+  "source": "wikimedia commons"
+ },
+ "yqb/yqb__q0_1.jpg": {
+  "query": "Chateau Frontenac Quebec City",
+  "title": "File:Chateau Frontenac illuminated at night in Quebec City.jpg",
+  "creator": "Wilfredor",
+  "license": "CC0 ",
+  "page": "https://commons.wikimedia.org/wiki/File:Chateau_Frontenac_illuminated_at_night_in_Quebec_City.jpg",
+  "source": "wikimedia commons"
+ },
+ "yqb/yqb__q0_2.jpg": {
+  "query": "Chateau Frontenac Quebec City",
+  "title": "File:Ch\u00e2teau Frontenac after a freezing rain day in Quebec city.jpg",
+  "creator": "Wilfredor",
+  "license": "CC BY-SA 4.0 ",
+  "page": "https://commons.wikimedia.org/wiki/File:Ch%C3%A2teau_Frontenac_after_a_freezing_rain_day_in_Quebec_city.jpg",
+  "source": "wikimedia commons"
+ },
+ "yqb/yqb__q0_3.jpg": {
+  "query": "Chateau Frontenac Quebec City",
+  "title": "File:Ch\u00e2teau Frontenac city at night.jpg",
+  "creator": "Wilfredor",
+  "license": "CC BY-SA 4.0 ",
+  "page": "https://commons.wikimedia.org/wiki/File:Ch%C3%A2teau_Frontenac_city_at_night.jpg",
+  "source": "wikimedia commons"
+ },
+ "yqb/yqb__q1_0.jpg": {
+  "query": "Quebec City Jean Lesage airport terminal",
+  "title": "File:A\u00e9roport Jean Lesage.jpg",
+  "creator": "Harfang",
+  "license": "CC BY 3.0 ",
+  "page": "https://commons.wikimedia.org/wiki/File:A%C3%A9roport_Jean_Lesage.jpg",
+  "source": "wikimedia commons"
+ },
+ "yqb/yqb__q1_1.jpg": {
+  "query": "Quebec City Jean Lesage airport terminal",
+  "title": "File:Jean Lesage Airport 2.jpg",
+  "creator": "Harfang",
+  "license": "CC BY-SA 3.0 ",
+  "page": "https://commons.wikimedia.org/wiki/File:Jean_Lesage_Airport_2.jpg",
+  "source": "wikimedia commons"
+ },
+ "yqb/yqb__q1_2.jpg": {
+  "query": "Quebec City Jean Lesage airport terminal",
+  "title": "File:Jean Lesage Airport.jpg",
+  "creator": "Harfang",
+  "license": "CC BY 3.0 ",
+  "page": "https://commons.wikimedia.org/wiki/File:Jean_Lesage_Airport.jpg",
+  "source": "wikimedia commons"
+ },
+ "yqb/yqb__q1_3.jpg": {
+  "query": "Quebec City Jean Lesage airport terminal",
+  "title": "File:Qu\u00e9bec - a\u00e9roport international Jean-Lesage 20241029-02.jpg",
+  "creator": "Pymouss",
+  "license": "CC BY-SA 4.0 ",
+  "page": "https://commons.wikimedia.org/wiki/File:Qu%C3%A9bec_-_a%C3%A9roport_international_Jean-Lesage_20241029-02.jpg",
+  "source": "wikimedia commons"
+ },
+ "yvz/yvz__q0_0.jpg": {
+  "query": "Deer Lake Ontario",
+  "title": "File:Deer Lake NFLD002.JPG",
+  "creator": "WayneRay",
+  "license": "Public domain ",
+  "page": "https://commons.wikimedia.org/wiki/File:Deer_Lake_NFLD002.JPG",
+  "source": "wikimedia commons"
+ },
+ "yvz/yvz__q0_1.jpg": {
+  "query": "Deer Lake Ontario",
+  "title": "File:Deer Lake NFLD001.JPG",
+  "creator": "WayneRay",
+  "license": "Public domain ",
+  "page": "https://commons.wikimedia.org/wiki/File:Deer_Lake_NFLD001.JPG",
+  "source": "wikimedia commons"
+ },
+ "yvz/yvz__q0_2.jpg": {
+  "query": "Deer Lake Ontario",
+  "title": "File:Deer Lake NFLD.JPG",
+  "creator": "WayneRay",
+  "license": "Public domain ",
+  "page": "https://commons.wikimedia.org/wiki/File:Deer_Lake_NFLD.JPG",
+  "source": "wikimedia commons"
+ },
+ "yvz/yvz__q0_3.jpg": {
+  "query": "Deer Lake Ontario",
+  "title": "File:Deer (33539073096).jpg",
+  "creator": "Ron Bulovs from Toronto, Canada",
+  "license": "CC BY 2.0 ",
+  "page": "https://commons.wikimedia.org/wiki/File:Deer_(33539073096).jpg",
+  "source": "wikimedia commons"
+ },
+ "yvz/yvz__q1_0.jpg": {
+  "query": "northern Ontario lake boreal forest",
+  "title": "File:Canadian forest industries 1882 (1882) (19900618344).jpg",
+  "creator": "Internet Archive Book Images",
+  "license": "No restrictions ",
+  "page": "https://commons.wikimedia.org/wiki/File:Canadian_forest_industries_1882_(1882)_(19900618344).jpg",
+  "source": "wikimedia commons"
+ },
+ "yvz/yvz__q1_1.jpg": {
+  "query": "northern Ontario lake boreal forest",
+  "title": "File:Canadian forest industries January-June 1912 (1912) (20341124139).jpg",
+  "creator": "Internet Archive Book Images",
+  "license": "No restrictions ",
+  "page": "https://commons.wikimedia.org/wiki/File:Canadian_forest_industries_January-June_1912_(1912)_(20341124139).jpg",
+  "source": "wikimedia commons"
+ },
+ "yvz/yvz__q1_2.jpg": {
+  "query": "northern Ontario lake boreal forest",
+  "title": "File:Annual report (1906) (14562209668).jpg",
+  "creator": "New York (State). Forest, Fish and Game Commission",
+  "license": "No restrictions ",
+  "page": "https://commons.wikimedia.org/wiki/File:Annual_report_(1906)_(14562209668).jpg",
+  "source": "wikimedia commons"
+ },
+ "yvz/yvz__q1_3.jpg": {
+  "query": "northern Ontario lake boreal forest",
+  "title": "File:Snow in northeastern United States (13084747284).jpg",
+  "creator": "NASA Goddard Space Flight Center from Greenbelt, MD, USA",
+  "license": "Public domain ",
+  "page": "https://commons.wikimedia.org/wiki/File:Snow_in_northeastern_United_States_(13084747284).jpg",
+  "source": "wikimedia commons"
+ },
+ "route-niagara/route-niagara__q0_0.jpg": {
+  "query": "Niagara Falls",
+  "title": "File:Niagara Falls - ON - Niagaraf\u00e4lle3.jpg",
+  "creator": "Taxiarchos228",
+  "license": "FAL ",
+  "page": "https://commons.wikimedia.org/wiki/File:Niagara_Falls_-_ON_-_Niagaraf%C3%A4lle3.jpg",
+  "source": "wikimedia commons"
+ },
+ "route-niagara/route-niagara__q0_1.jpg": {
+  "query": "Niagara Falls",
+  "title": "File:Niagara Falls 001.JPG",
+  "creator": "Nandaro",
+  "license": "CC BY-SA 3.0 ",
+  "page": "https://commons.wikimedia.org/wiki/File:Niagara_Falls_001.JPG",
+  "source": "wikimedia commons"
+ },
+ "route-niagara/route-niagara__q0_2.jpg": {
+  "query": "Niagara Falls",
+  "title": "File:3Falls Niagara.jpg",
+  "creator": "Saffron Blaze",
+  "license": "CC BY-SA 3.0 ",
+  "page": "https://commons.wikimedia.org/wiki/File:3Falls_Niagara.jpg",
+  "source": "wikimedia commons"
+ },
+ "route-niagara/route-niagara__q0_3.jpg": {
+  "query": "Niagara Falls",
+  "title": "File:Niagara-Falls-Horseshoe-Falls-view.jpg",
+  "creator": "Photo (c)2007 Helen Filatova",
+  "license": "CC BY 2.0 ",
+  "page": "https://commons.wikimedia.org/wiki/File:Niagara-Falls-Horseshoe-Falls-view.jpg",
+  "source": "wikimedia commons"
+ },
+ "route-whistler/route-whistler__q0_0.jpg": {
+  "query": "Whistler village British Columbia",
+  "title": "File:Whistler, British Columbia, Canada (20645996499).jpg",
+  "creator": "Richie Diesterheft from Santa Barbara, CA, USA",
+  "license": "CC BY-SA 2.0 ",
+  "page": "https://commons.wikimedia.org/wiki/File:Whistler,_British_Columbia,_Canada_(20645996499).jpg",
+  "source": "wikimedia commons"
+ },
+ "route-whistler/route-whistler__q0_1.jpg": {
+  "query": "Whistler village British Columbia",
+  "title": "File:Whistler, British Columbia, Canada (20210396234).jpg",
+  "creator": "Richie Diesterheft from Santa Barbara, CA, USA",
+  "license": "CC BY-SA 2.0 ",
+  "page": "https://commons.wikimedia.org/wiki/File:Whistler,_British_Columbia,_Canada_(20210396234).jpg",
+  "source": "wikimedia commons"
+ },
+ "route-whistler/route-whistler__q0_2.jpg": {
+  "query": "Whistler village British Columbia",
+  "title": "File:Whistler, British Columbia, Canada (20823228892).jpg",
+  "creator": "Richie Diesterheft from Santa Barbara, CA, USA",
+  "license": "CC BY-SA 2.0 ",
+  "page": "https://commons.wikimedia.org/wiki/File:Whistler,_British_Columbia,_Canada_(20823228892).jpg",
+  "source": "wikimedia commons"
+ },
+ "route-whistler/route-whistler__q0_3.jpg": {
+  "query": "Whistler village British Columbia",
+  "title": "File:Whistler, British Columbia, Canada (20823837722).jpg",
+  "creator": "Richie Diesterheft from Santa Barbara, CA, USA",
+  "license": "CC BY-SA 2.0 ",
+  "page": "https://commons.wikimedia.org/wiki/File:Whistler,_British_Columbia,_Canada_(20823837722).jpg",
+  "source": "wikimedia commons"
+ },
+ "route-quebec/route-quebec__q0_0.jpg": {
+  "query": "old Quebec City street",
+  "title": "File:Autumnal Retreat in Old Quebec- A Canvas of Fading Reds and Vibrant Oranges.jpg",
+  "creator": "Wilfredor\u00a0",
+  "license": "CC0 ",
+  "page": "https://commons.wikimedia.org/wiki/File:Autumnal_Retreat_in_Old_Quebec-_A_Canvas_of_Fading_Reds_and_Vibrant_Oranges.jpg",
+  "source": "wikimedia commons"
+ },
+ "route-quebec/route-quebec__q0_1.jpg": {
+  "query": "old Quebec City street",
+  "title": "File:Caleche horses waiting in a snowy street in Vieux-Quebec.jpg",
+  "creator": "Wilfredor",
+  "license": "CC BY-SA 4.0 ",
+  "page": "https://commons.wikimedia.org/wiki/File:Caleche_horses_waiting_in_a_snowy_street_in_Vieux-Quebec.jpg",
+  "source": "wikimedia commons"
+ },
+ "route-quebec/route-quebec__q0_2.jpg": {
+  "query": "old Quebec City street",
+  "title": "File:Cycle hire point, Old Quebec Street, Marylebone - geograph.org.uk - 7235307.jpg",
+  "creator": "Dylan Moore\u00a0",
+  "license": "CC BY-SA 2.0 ",
+  "page": "https://commons.wikimedia.org/wiki/File:Cycle_hire_point,_Old_Quebec_Street,_Marylebone_-_geograph.org.uk_-_7235307.jpg",
+  "source": "wikimedia commons"
+ },
+ "route-quebec/route-quebec__q0_3.jpg": {
+  "query": "old Quebec City street",
+  "title": "File:Narrow street in Old Quebec in winter.jpg",
+  "creator": "Wilfredor",
+  "license": "CC0 ",
+  "page": "https://commons.wikimedia.org/wiki/File:Narrow_street_in_Old_Quebec_in_winter.jpg",
+  "source": "wikimedia commons"
+ },
+ "route-banff/route-banff__q0_0.jpg": {
+  "query": "Banff Rocky Mountains",
+  "title": "File:Peyto Lake-Banff NP-Canada.jpg",
+  "creator": "Tobias Alt, Tobi 87",
+  "license": "CC BY-SA 4.0 ",
+  "page": "https://commons.wikimedia.org/wiki/File:Peyto_Lake-Banff_NP-Canada.jpg",
+  "source": "wikimedia commons"
+ },
+ "route-banff/route-banff__q0_1.jpg": {
+  "query": "Banff Rocky Mountains",
+  "title": "File:Rocky Mountain elk (Cervus canadensis nelsoni) female Banff.jpg",
+  "creator": "Charles J. Sharp",
+  "license": "CC BY-SA 4.0 ",
+  "page": "https://commons.wikimedia.org/wiki/File:Rocky_Mountain_elk_(Cervus_canadensis_nelsoni)_female_Banff.jpg",
+  "source": "wikimedia commons"
+ },
+ "route-banff/route-banff__q0_2.jpg": {
+  "query": "Banff Rocky Mountains",
+  "title": "File:Rocky Mountain elk (Cervus canadensis nelsoni) juvenile Banff.jpg",
+  "creator": "Charles J. Sharp",
+  "license": "CC BY-SA 4.0 ",
+  "page": "https://commons.wikimedia.org/wiki/File:Rocky_Mountain_elk_(Cervus_canadensis_nelsoni)_juvenile_Banff.jpg",
+  "source": "wikimedia commons"
+ },
+ "route-banff/route-banff__q0_3.jpg": {
+  "query": "Banff Rocky Mountains",
+  "title": "File:Snowy Rocky Mountains in Banff 3.jpg",
+  "creator": "Rschroeder1985",
+  "license": "CC0 ",
+  "page": "https://commons.wikimedia.org/wiki/File:Snowy_Rocky_Mountains_in_Banff_3.jpg",
+  "source": "wikimedia commons"
+ },
+ "route-ottawa/route-ottawa__q0_0.jpg": {
+  "query": "Rideau Canal Ottawa",
+  "title": "File:Rideau Canal, Ottawa, ON, Canada.jpg",
+  "creator": "Salwa Farwaneh",
+  "license": "CC BY-SA 4.0 ",
+  "page": "https://commons.wikimedia.org/wiki/File:Rideau_Canal,_Ottawa,_ON,_Canada.jpg",
+  "source": "wikimedia commons"
+ },
+ "route-ottawa/route-ottawa__q0_1.jpg": {
+  "query": "Rideau Canal Ottawa",
+  "title": "File:Rideau Canal, Ottawa, Canada.jpg",
+  "creator": "Salwa Farwaneh",
+  "license": "CC BY-SA 4.0 ",
+  "page": "https://commons.wikimedia.org/wiki/File:Rideau_Canal,_Ottawa,_Canada.jpg",
+  "source": "wikimedia commons"
+ },
+ "route-ottawa/route-ottawa__q0_2.jpg": {
+  "query": "Rideau Canal Ottawa",
+  "title": "File:Ottawa Locks at Colonel By Valley-Rideau Canal- Ottawa-Ontario-5727-20131011.jpg",
+  "creator": "Mhsheikholeslami",
+  "license": "CC BY-SA 4.0 ",
+  "page": "https://commons.wikimedia.org/wiki/File:Ottawa_Locks_at_Colonel_By_Valley-Rideau_Canal-_Ottawa-Ontario-5727-20131011.jpg",
+  "source": "wikimedia commons"
+ },
+ "route-ottawa/route-ottawa__q0_3.jpg": {
+  "query": "Rideau Canal Ottawa",
+  "title": "File:Rideau Canal 00759.jpg",
+  "creator": "Chris Light",
+  "license": "CC BY-SA 4.0 ",
+  "page": "https://commons.wikimedia.org/wiki/File:Rideau_Canal_00759.jpg",
+  "source": "wikimedia commons"
  },
  "route-toronto-night/route-toronto-night__q0_0.jpg": {
   "query": "Toronto downtown night",
-  "title": "Aerial drone shot bustling metropolis",
-  "creator": null,
-  "license": "cc0 1.0",
-  "page": "https://www.rawpixel.com/image/3283329/free-photo-image-canada-cityscape-city-background-skyscraper",
-  "source": "rawpixel"
+  "title": "File:Toronto Railway August 2017 03.jpg",
+  "creator": "Arild V\u00e5gen",
+  "license": "CC BY-SA 4.0 ",
+  "page": "https://commons.wikimedia.org/wiki/File:Toronto_Railway_August_2017_03.jpg",
+  "source": "wikimedia commons"
  },
  "route-toronto-night/route-toronto-night__q0_1.jpg": {
   "query": "Toronto downtown night",
-  "title": "long exposure nearing end highway",
-  "creator": null,
-  "license": "cc0 1.0",
-  "page": "https://www.rawpixel.com/image/3283634/free-photo-image-car-landscape-architecture",
-  "source": "rawpixel"
+  "title": "File:Gardiner Expy at Toronto Downtown at night 2023.jpg",
+  "creator": "Canmenwalker",
+  "license": "CC BY 4.0 ",
+  "page": "https://commons.wikimedia.org/wiki/File:Gardiner_Expy_at_Toronto_Downtown_at_night_2023.jpg",
+  "source": "wikimedia commons"
+ },
+ "route-toronto-night/route-toronto-night__q0_2.jpg": {
+  "query": "Toronto downtown night",
+  "title": "File:Downtown Toronto (39803549984).jpg",
+  "creator": "Mark",
+  "license": "CC BY 2.0 ",
+  "page": "https://commons.wikimedia.org/wiki/File:Downtown_Toronto_(39803549984).jpg",
+  "source": "wikimedia commons"
+ },
+ "route-toronto-night/route-toronto-night__q0_3.jpg": {
+  "query": "Toronto downtown night",
+  "title": "File:Downtown Toronto view from Gerrard Street.jpg",
+  "creator": "Joli Rumi",
+  "license": "CC BY-SA 4.0 ",
+  "page": "https://commons.wikimedia.org/wiki/File:Downtown_Toronto_view_from_Gerrard_Street.jpg",
+  "source": "wikimedia commons"
  },
  "extra-jet/extra-jet__q0_0.jpg": {
   "query": "private jet airport",
-  "title": "Cropped black white photo private",
-  "creator": null,
-  "license": "cc0 1.0",
-  "page": "https://www.rawpixel.com/image/3305586/free-photo-image-aircraft-airfield-airliner",
-  "source": "rawpixel"
+  "title": "File:Private jet at Luton Airport - geograph.org.uk - 7764547.jpg",
+  "creator": "Thomas Nugent\u00a0",
+  "license": "CC BY-SA 2.0 ",
+  "page": "https://commons.wikimedia.org/wiki/File:Private_jet_at_Luton_Airport_-_geograph.org.uk_-_7764547.jpg",
+  "source": "wikimedia commons"
  },
  "extra-jet/extra-jet__q0_1.jpg": {
   "query": "private jet airport",
-  "title": "Free blue still airplane image",
-  "creator": null,
-  "license": "cc0 1.0",
-  "page": "https://www.rawpixel.com/image/5901507/photo-image-background-clouds-light",
-  "source": "rawpixel"
+  "title": "File:Private jets at Luton Airport - geograph.org.uk - 7856842.jpg",
+  "creator": "Thomas Nugent\u00a0",
+  "license": "CC BY-SA 2.0 ",
+  "page": "https://commons.wikimedia.org/wiki/File:Private_jets_at_Luton_Airport_-_geograph.org.uk_-_7856842.jpg",
+  "source": "wikimedia commons"
+ },
+ "extra-jet/extra-jet__q0_2.jpg": {
+  "query": "private jet airport",
+  "title": "File:Private jet at Glasgow Airport - geograph.org.uk - 7446031.jpg",
+  "creator": "Thomas Nugent\u00a0",
+  "license": "CC BY-SA 2.0 ",
+  "page": "https://commons.wikimedia.org/wiki/File:Private_jet_at_Glasgow_Airport_-_geograph.org.uk_-_7446031.jpg",
+  "source": "wikimedia commons"
+ },
+ "extra-jet/extra-jet__q0_3.jpg": {
+  "query": "private jet airport",
+  "title": "File:Private jet at Glasgow Airport - geograph.org.uk - 8214772.jpg",
+  "creator": "Thomas Nugent\u00a0",
+  "license": "CC BY-SA 2.0 ",
+  "page": "https://commons.wikimedia.org/wiki/File:Private_jet_at_Glasgow_Airport_-_geograph.org.uk_-_8214772.jpg",
+  "source": "wikimedia commons"
+ },
+ "extra-interior/extra-interior__q0_0.jpg": {
+  "query": "luxury car interior leather rear seat",
+  "title": "File:1984 AMC Eagle Limited wagon with woodgrain trim at 2017 AMO meet 7of8.jpg",
+  "creator": "CZmarlin \u2014 Christopher Ziemnowicz, a photo credit would be appreciated if this i",
+  "license": "CC0 ",
+  "page": "https://commons.wikimedia.org/wiki/File:1984_AMC_Eagle_Limited_wagon_with_woodgrain_trim_at_2017_AMO_meet_7of8.jpg",
+  "source": "wikimedia commons"
+ },
+ "extra-interior/extra-interior__q0_1.jpg": {
+  "query": "luxury car interior leather rear seat",
+  "title": "File:Mid Murray Classic Car Gallery, Swan Reach 20261007-125355.jpg",
+  "creator": "RegionVisitor90",
+  "license": "CC BY 4.0 ",
+  "page": "https://commons.wikimedia.org/wiki/File:Mid_Murray_Classic_Car_Gallery,_Swan_Reach_20261007-125355.jpg",
+  "source": "wikimedia commons"
+ },
+ "extra-interior/extra-interior__q0_2.jpg": {
+  "query": "luxury car interior leather rear seat",
+  "title": "File:1975 Lincoln Continental Mark IV \"Lipstick and White Edition\", rear right.jpg",
+  "creator": "Mr.choppers",
+  "license": "CC BY-SA 3.0 ",
+  "page": "https://commons.wikimedia.org/wiki/File:1975_Lincoln_Continental_Mark_IV_%22Lipstick_and_White_Edition%22,_rear_right.jpg",
+  "source": "wikimedia commons"
+ },
+ "extra-interior/extra-interior__q0_3.jpg": {
+  "query": "luxury car interior leather rear seat",
+  "title": "File:1986 AMC Eagle Limited wagon with woodgrain body side trim at 2021 AMO meet 3of3.jpg",
+  "creator": "CZmarlin  \u2014 Christopher Ziemnowicz, a photo credit would be appreciated if this ",
+  "license": "CC BY-SA 4.0 ",
+  "page": "https://commons.wikimedia.org/wiki/File:1986_AMC_Eagle_Limited_wagon_with_woodgrain_body_side_trim_at_2021_AMO_meet_3of3.jpg",
+  "source": "wikimedia commons"
+ },
+ "extra-limo/extra-limo__q0_0.jpg": {
+  "query": "black limousine street",
+  "title": "File:Hyundai Staria Limousine US4 PE Black One-tone (5).jpg",
+  "creator": "Damian B Oh",
+  "license": "CC BY-SA 4.0 ",
+  "page": "https://commons.wikimedia.org/wiki/File:Hyundai_Staria_Limousine_US4_PE_Black_One-tone_(5).jpg",
+  "source": "wikimedia commons"
+ },
+ "extra-limo/extra-limo__q0_1.jpg": {
+  "query": "black limousine street",
+  "title": "File:Hyundai Staria Limousine US4 PE Black One-tone (22).jpg",
+  "creator": "Damian B Oh",
+  "license": "CC BY-SA 4.0 ",
+  "page": "https://commons.wikimedia.org/wiki/File:Hyundai_Staria_Limousine_US4_PE_Black_One-tone_(22).jpg",
+  "source": "wikimedia commons"
+ },
+ "extra-limo/extra-limo__q0_2.jpg": {
+  "query": "black limousine street",
+  "title": "File:Hyundai Staria Limousine US4 PE Black One-tone (10).jpg",
+  "creator": "Damian B Oh",
+  "license": "CC BY-SA 4.0 ",
+  "page": "https://commons.wikimedia.org/wiki/File:Hyundai_Staria_Limousine_US4_PE_Black_One-tone_(10).jpg",
+  "source": "wikimedia commons"
+ },
+ "extra-limo/extra-limo__q0_3.jpg": {
+  "query": "black limousine street",
+  "title": "File:Hyundai Staria Limousine US4 PE Black One-tone (15).jpg",
+  "creator": "Damian B Oh",
+  "license": "CC BY-SA 4.0 ",
+  "page": "https://commons.wikimedia.org/wiki/File:Hyundai_Staria_Limousine_US4_PE_Black_One-tone_(15).jpg",
+  "source": "wikimedia commons"
+ },
+ "extra-office/extra-office__q0_0.jpg": {
+  "query": "executive office tower business district",
+  "title": "File:Atlanta 24-27 Feb 2010 (4399677164).jpg",
+  "creator": "David from Colorado Springs, United States",
+  "license": "CC BY 2.0 ",
+  "page": "https://commons.wikimedia.org/wiki/File:Atlanta_24-27_Feb_2010_(4399677164).jpg",
+  "source": "wikimedia commons"
  },
  "extra-highway/extra-highway__q0_0.jpg": {
   "query": "highway countryside road trip",
-  "title": "Road Aerial",
-  "creator": "Matt Bango",
-  "license": "cc0 1.0",
-  "page": "https://stocksnap.io/photo/road-aerial-VOFXA0EVJF",
-  "source": "stocksnap"
+  "title": "File:Flickr - Omar A. - IMG 2127.jpg",
+  "creator": "Omar A.",
+  "license": "CC BY-SA 2.0 ",
+  "page": "https://commons.wikimedia.org/wiki/File:Flickr_-_Omar_A._-_IMG_2127.jpg",
+  "source": "wikimedia commons"
+ },
+ "extra-highway/extra-highway__q0_1.jpg": {
+  "query": "highway countryside road trip",
+  "title": "File:Flickr - Omar A. - IMG 2128- Langzhou mosque.jpg",
+  "creator": "Omar A.",
+  "license": "CC BY-SA 2.0 ",
+  "page": "https://commons.wikimedia.org/wiki/File:Flickr_-_Omar_A._-_IMG_2128-_Langzhou_mosque.jpg",
+  "source": "wikimedia commons"
+ },
+ "extra-highway/extra-highway__q0_2.jpg": {
+  "query": "highway countryside road trip",
+  "title": "File:Nephi, Utah 9-2011 (6842536537).jpg",
+  "creator": "inkknife_2000 (7.5 million views +)",
+  "license": "CC BY-SA 2.0 ",
+  "page": "https://commons.wikimedia.org/wiki/File:Nephi,_Utah_9-2011_(6842536537).jpg",
+  "source": "wikimedia commons"
+ },
+ "extra-highway/extra-highway__q0_3.jpg": {
+  "query": "highway countryside road trip",
+  "title": "File:Flickr - Omar A. - West Cross Mosque, Langzhou, China.jpg",
+  "creator": "Omar Ansari from The Bay Area, USA",
+  "license": "CC BY-SA 2.0 ",
+  "page": "https://commons.wikimedia.org/wiki/File:Flickr_-_Omar_A._-_West_Cross_Mosque,_Langzhou,_China.jpg",
+  "source": "wikimedia commons"
  }
 }
