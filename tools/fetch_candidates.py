@@ -20,6 +20,16 @@ SLOTS = {
   "extra-suv": ["Cadillac Escalade", "Chevrolet Suburban"],
   "extra-interior2": ["limousine interior", "car interior leather"],
   "extra-night": ["city street night traffic"],
+  "svc2-airport": ["airplane takeoff sunset", "airport terminal night"],
+  "svc2-corporate": ["business meeting boardroom", "skyscraper business district"],
+  "svc2-wedding": ["wedding bouquet", "wedding reception"],
+  "svc2-hourly": ["wristwatch", "city street evening"],
+  "svc2-citytocity": ["highway landscape road", "mountain road Canada"],
+  "nx-book": ["hand holding smartphone", "smartphone app"],
+  "nx-coverage": ["Canadian Rockies lake", "Canada autumn landscape"],
+  "nx-contact": ["customer service headset", "telephone call"],
+  "bg-hero": ["luxury car night city", "limousine night"],
+  "bg-cta": ["city skyline dusk", "airport runway dusk"],
  },
 }
 PER_QUERY = 4
