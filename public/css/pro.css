@@ -76,9 +76,9 @@ footer .fgrid img{width:104px;height:104px;border-radius:50%;object-fit:cover;bo
 .fcard::before{content:"";position:absolute;z-index:3;left:0;top:0;height:2px;width:100%;background:linear-gradient(90deg,var(--gold),var(--gold-hi));transform:scaleX(0);transform-origin:left;transition:transform .7s var(--ease)}
 .fcard:hover::before{transform:none}
 .fcard:hover{border-color:rgba(199,163,101,.6);box-shadow:0 34px 70px -34px rgba(199,163,101,.5),0 0 0 1px rgba(199,163,101,.2)}
-.stage{position:relative;aspect-ratio:16/10.5;overflow:hidden;background:radial-gradient(ellipse 80% 70% at 50% 105%,rgba(199,163,101,.3),transparent 62%),radial-gradient(ellipse 60% 50% at var(--mx,50%) 0,rgba(252,248,237,.1),transparent 70%),linear-gradient(180deg,#171518,#171518)}
-.stage[data-cls=first]{background:radial-gradient(ellipse 80% 70% at 50% 105%,rgba(220,200,167,.28),transparent 62%),radial-gradient(ellipse 60% 50% at var(--mx,50%) 0,rgba(252,248,237,.1),transparent 70%),linear-gradient(180deg,#171518,#171518)}
-.stage[data-cls=suv]{background:radial-gradient(ellipse 80% 70% at 50% 105%,rgba(199,163,101,.28),transparent 62%),radial-gradient(ellipse 60% 50% at var(--mx,50%) 0,rgba(252,248,237,.1),transparent 70%),linear-gradient(180deg,#171518,#171518)}
+.stage{position:relative;aspect-ratio:16/10.5;overflow:hidden;background:radial-gradient(ellipse 80% 70% at 50% 105%,rgba(199,163,101,.3),transparent 62%),linear-gradient(180deg,#171518,#171518)}
+.stage[data-cls=first]{background:radial-gradient(ellipse 80% 70% at 50% 105%,rgba(220,200,167,.28),transparent 62%),linear-gradient(180deg,#171518,#171518)}
+.stage[data-cls=suv]{background:radial-gradient(ellipse 80% 70% at 50% 105%,rgba(199,163,101,.28),transparent 62%),linear-gradient(180deg,#171518,#171518)}
 .stage::before{content:"";position:absolute;left:0;right:0;bottom:19%;height:1px;background:linear-gradient(90deg,transparent,rgba(252,248,237,.18),transparent)}
 .stage::after{content:"";position:absolute;inset:auto 0 0;height:19%;background:linear-gradient(rgba(252,248,237,.04),transparent)}
 .stage .idx{position:absolute;right:16px;top:6px;font:500 74px/1 'Cormorant Garamond',serif;color:rgba(252,248,237,.07);transition:color .5s,transform .6s var(--ease)}
@@ -296,3 +296,8 @@ a.cbox:hover{border-color:var(--gold);transform:translateX(4px)}
 @media(max-width:1060px){.ntel{margin-left:18px}}
 @media(max-width:860px){.ntel{order:1;margin-left:auto;margin-right:12px;font-size:14px}#burger{order:2}}
 @media(max-width:400px){.ntel span{display:none}.ntel{width:42px;height:42px;justify-content:center;border:1px solid var(--line);border-radius:50%}.ntel svg{width:19px;height:19px}}
+
+/* no cursor-following glow */
+#glow,.card::before,.occ::before{display:none!important}
+/* airport sign badge */
+.apt .sign{position:absolute;left:14px;top:14px;z-index:2;font:600 17px/1 'Jost',sans-serif;letter-spacing:.2em;color:#171518;background:linear-gradient(180deg,#f4e3bd,#c7a365);padding:8px 12px 8px 14px;border-radius:3px;box-shadow:0 6px 16px rgba(0,0,0,.45),inset 0 0 0 2px rgba(23,21,24,.25);font-style:normal}
