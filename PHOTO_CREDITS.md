@@ -17,11 +17,11 @@ Photos are from Wikimedia Commons and Openverse under free licences. Attribution
 - photos/bg-cta: Chateau Frontenac at dusk in Quebec City.jpg by Wilfredor (CC0 ) https://commons.wikimedia.org/wiki/File:Chateau_Frontenac_at_dusk_in_Quebec_City.jpg
 - photos/bg-faq: Canadian Museum for Human Rights and downtown Winnipeg skyline at night, Manitoba, Canada. by Ethan Sahagun (CC BY 4.0 ) https://commons.wikimedia.org/wiki/File:Canadian_Museum_for_Human_Rights_and_downtown_Winnipeg_skyline_at_night,_Manitoba,_Canada.jpg
 - photos/bg-journey: Montreal - QC - Skyline.jpg by Taxiarchos228 (CC BY 3.0 ) https://commons.wikimedia.org/wiki/File:Montreal_-_QC_-_Skyline.jpg
-- photos/bg-routes: Parliament Hill from the Ottawa River.JPG by Óðinn (CC BY-SA 2.5 ca ) https://commons.wikimedia.org/wiki/File:Parliament_Hill_from_the_Ottawa_River.JPG
+- photos/bg-routes: Calgary Skyline from Prince's Island Park.jpg by Tamsintj (CC BY-SA 4.0 ) https://commons.wikimedia.org/wiki/File:Calgary_Skyline_from_Prince%27s_Island_Park.jpg
 - photos/bg-svc: Sunset Toronto Skyline Panorama Crop from Snake Island.jpg by Jchmrt (CC BY-SA 4.0 ) https://commons.wikimedia.org/wiki/File:Sunset_Toronto_Skyline_Panorama_Crop_from_Snake_Island.jpg
 - photos/bg-why: Vancouver Skyline and Mountains.jpg by Kyle Pearce/ DIY Genius (CC BY-SA 2.0 ) https://commons.wikimedia.org/wiki/File:Vancouver_Skyline_and_Mountains.jpg
 - photos/nx-book: Business class cabin of B-7173 (20240224142041).jpg by N509FZ (CC BY-SA 4.0 ) https://commons.wikimedia.org/wiki/File:Business_class_cabin_of_B-7173_(20240224142041).jpg
-- photos/nx-contact: Entrance of Amantaka luxury Resort & Hotel at blue hour in Luang Prabang Laos.jpg by Basile Morin (CC BY-SA 4.0 ) https://commons.wikimedia.org/wiki/File:Entrance_of_Amantaka_luxury_Resort_%26_Hotel_at_blue_hour_in_Luang_Prabang_Laos.jpg
+- photos/nx-contact: Aspire Executive Lounge Perth Airport, 2026 (15).jpg by Bahnfrend (CC BY-SA 4.0 ) https://commons.wikimedia.org/wiki/File:Aspire_Executive_Lounge_Perth_Airport,_2026_(15).jpg
 - photos/nx-coverage: Moraine Lake 17092005.jpg by Gorgo (Public domain ) https://commons.wikimedia.org/wiki/File:Moraine_Lake_17092005.jpg
 - photos/occ-conference: Conference room XIX in the Palace of Nations.jpg by Unnerving duck (CC BY-SA 4.0 ) https://commons.wikimedia.org/wiki/File:Conference_room_XIX_in_the_Palace_of_Nations.jpg
 - photos/occ-daytour: Autumnal Retreat in Old Quebec- A Canvas of Fading Reds and Vibrant Oranges.jpg by Wilfredor  (CC0 ) https://commons.wikimedia.org/wiki/File:Autumnal_Retreat_in_Old_Quebec-_A_Canvas_of_Fading_Reds_and_Vibrant_Oranges.jpg
@@ -29,11 +29,11 @@ Photos are from Wikimedia Commons and Openverse under free licences. Attribution
 - photos/occ-meetgreet: Larnaca Airport Arrivals Hall 20180330.jpg by Héctor Ochoa "Robot8A" (CC BY-SA 4.0 ) https://commons.wikimedia.org/wiki/File:Larnaca_Airport_Arrivals_Hall_20180330.jpg
 - photos/occ-roadshow: Cadillac Escalade ESV (GMTK2XX) 1X7A1581.jpg by Alexander-93 (CC BY-SA 4.0 ) https://commons.wikimedia.org/wiki/File:Cadillac_Escalade_ESV_(GMTK2XX)_1X7A1581.jpg
 - photos/occ-wedding: Daimler DB18Consort e2 wedding car3.JPG by Daimler pics (CC BY-SA 3.0 ) https://commons.wikimedia.org/wiki/File:Daimler_DB18Consort_e2_wedding_car3.JPG
-- photos/ph-about: Chateau Frontenac illuminated at night in Quebec City.jpg by Wilfredor (CC0 ) https://commons.wikimedia.org/wiki/File:Chateau_Frontenac_illuminated_at_night_in_Quebec_City.jpg
+- photos/ph-about: Skyline of Winnipeg with railroad.jpg by Quintin Soloviev (CC BY 4.0 ) https://commons.wikimedia.org/wiki/File:Skyline_of_Winnipeg_with_railroad.jpg
 - photos/ph-book: Victoria Harbour Airport.jpg by ConifersOfGnarnia (CC BY 4.0 ) https://commons.wikimedia.org/wiki/File:Victoria_Harbour_Airport.jpg
-- photos/ph-contact: Parliament Hill Ottawa by Louie Luo.jpg by Louie Luo (CC BY-SA 4.0 ) https://commons.wikimedia.org/wiki/File:Parliament_Hill_Ottawa_by_Louie_Luo.jpg
-- photos/ph-coverage: Construction on the Halifax Waterfront in August 2019.jpg by WabbitWanderer from London, Canada (CC BY-SA 2.0 ) https://commons.wikimedia.org/wiki/File:Construction_on_the_Halifax_Waterfront_in_August_2019.jpg
-- photos/ph-fleet: Toronto - ON - Skyline bei Nacht.jpg by Wladyslaw (talk) (CC BY-SA 3.0 ) https://commons.wikimedia.org/wiki/File:Toronto_-_ON_-_Skyline_bei_Nacht.jpg
+- photos/ph-contact: Edmonton Skyline July 2020.jpg by Matthew Boonstra (CC BY-SA 4.0 ) https://commons.wikimedia.org/wiki/File:Edmonton_Skyline_July_2020.jpg
+- photos/ph-coverage: Inner Harbour, Victoria (4044177343).jpg by Hardo Müller from Bonn, Germany (CC BY-SA 2.0 ) https://commons.wikimedia.org/wiki/File:Inner_Harbour,_Victoria_(4044177343).jpg
+- photos/ph-fleet: Skyline of Vancouver, BC.jpg by Quintin Soloviev (CC BY 4.0 ) https://commons.wikimedia.org/wiki/File:Skyline_of_Vancouver,_BC.jpg
 - photos/ph-services: Calgary Skyline from the river.jpg by Mule hollandaise (CC BY 4.0 ) https://commons.wikimedia.org/wiki/File:Calgary_Skyline_from_the_river.jpg
 - photos/sp-airport: Night at Perth Airport Terminal 1 Domestic, WA, 2022 01.jpg by Kgbo (CC BY-SA 4.0 ) https://commons.wikimedia.org/wiki/File:Night_at_Perth_Airport_Terminal_1_Domestic,_WA,_2022_01.jpg
 - photos/sp-citytocity: Mountain Road Thunder Bay Canada Autumn (24076093089).jpg by Tony Webster from Minneapolis, Minnesota, United States (CC BY-SA 2.0 ) https://commons.wikimedia.org/wiki/File:Mountain_Road_Thunder_Bay_Canada_Autumn_(24076093089).jpg
@@ -46,7 +46,7 @@ Photos are from Wikimedia Commons and Openverse under free licences. Attribution
 - photos/svc-hourly: Fashion-wristwatch-time-watch (24217032812).jpg by www.Pixel.la Free Stock Photos (CC0 ) https://commons.wikimedia.org/wiki/File:Fashion-wristwatch-time-watch_(24217032812).jpg
 - photos/svc-wedding: 22, Bridal bouquet (Unsplash).jpg by Alvin Mahmudov alvinmahmudov (CC0 ) https://commons.wikimedia.org/wiki/File:22,_Bridal_bouquet_(Unsplash).jpg
 - photos/why-chauffeur: Mercedes-Benz W223 IAA 2021 1X7A0206.jpg by Alexander Migl (CC BY-SA 4.0 ) https://commons.wikimedia.org/wiki/File:Mercedes-Benz_W223_IAA_2021_1X7A0206.jpg
-- photos/why-fares: Leather shop Re-Cuir, Barcelona 01.jpg by Joe Mabel (CC BY-SA 4.0 ) https://commons.wikimedia.org/wiki/File:Leather_shop_Re-Cuir,_Barcelona_01.jpg
+- photos/why-fares: 2007 Maserati Gran Turismo - Flickr - The Car Spy (7).jpg by The Car Spy (CC BY 2.0 ) https://commons.wikimedia.org/wiki/File:2007_Maserati_Gran_Turismo_-_Flickr_-_The_Car_Spy_(7).jpg
 - photos/why-flight: Private jets at Luton Airport - geograph.org.uk - 7856842.jpg by Thomas Nugent  (CC BY-SA 2.0 ) https://commons.wikimedia.org/wiki/File:Private_jets_at_Luton_Airport_-_geograph.org.uk_-_7856842.jpg
 - photos/why-privacy: Hyundai Staria Limousine US4 PE Black One-tone (5).jpg by Damian B Oh (CC BY-SA 4.0 ) https://commons.wikimedia.org/wiki/File:Hyundai_Staria_Limousine_US4_PE_Black_One-tone_(5).jpg
 - photos/why-support: Virgin Australia Lounge Perth Airport Terminal 1 - Domestic, June 2022 02.jpg by Calistemon (CC BY-SA 4.0 ) https://commons.wikimedia.org/wiki/File:Virgin_Australia_Lounge_Perth_Airport_Terminal_1_-_Domestic,_June_2022_02.jpg
