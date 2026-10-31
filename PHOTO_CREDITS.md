@@ -18,7 +18,7 @@ Photos are from Wikimedia Commons and Openverse under free licences. Attribution
 - photos/bg-faq: Canadian Museum for Human Rights and downtown Winnipeg skyline at night, Manitoba, Canada. by Ethan Sahagun (CC BY 4.0 ) https://commons.wikimedia.org/wiki/File:Canadian_Museum_for_Human_Rights_and_downtown_Winnipeg_skyline_at_night,_Manitoba,_Canada.jpg
 - photos/bg-journey: Montreal - QC - Skyline.jpg by Taxiarchos228 (CC BY 3.0 ) https://commons.wikimedia.org/wiki/File:Montreal_-_QC_-_Skyline.jpg
 - photos/bg-routes: Calgary Skyline from Prince's Island Park.jpg by Tamsintj (CC BY-SA 4.0 ) https://commons.wikimedia.org/wiki/File:Calgary_Skyline_from_Prince%27s_Island_Park.jpg
-- photos/bg-svc: Sunset Toronto Skyline Panorama Crop from Snake Island.jpg by Jchmrt (CC BY-SA 4.0 ) https://commons.wikimedia.org/wiki/File:Sunset_Toronto_Skyline_Panorama_Crop_from_Snake_Island.jpg
+- photos/bg-svc: Parliament Hill Ottawa by Louie Luo.jpg by Louie Luo (CC BY-SA 4.0 ) https://commons.wikimedia.org/wiki/File:Parliament_Hill_Ottawa_by_Louie_Luo.jpg
 - photos/bg-why: Vancouver Skyline and Mountains.jpg by Kyle Pearce/ DIY Genius (CC BY-SA 2.0 ) https://commons.wikimedia.org/wiki/File:Vancouver_Skyline_and_Mountains.jpg
 - photos/nx-book: Business class cabin of B-7173 (20240224142041).jpg by N509FZ (CC BY-SA 4.0 ) https://commons.wikimedia.org/wiki/File:Business_class_cabin_of_B-7173_(20240224142041).jpg
 - photos/nx-contact: Aspire Executive Lounge Perth Airport, 2026 (15).jpg by Bahnfrend (CC BY-SA 4.0 ) https://commons.wikimedia.org/wiki/File:Aspire_Executive_Lounge_Perth_Airport,_2026_(15).jpg
@@ -45,6 +45,7 @@ Photos are from Wikimedia Commons and Openverse under free licences. Attribution
 - photos/svc-corporate: N1 Hotel Rotten Row Boardroom Facility.jpg by Rufouslark (CC BY-SA 4.0 ) https://commons.wikimedia.org/wiki/File:N1_Hotel_Rotten_Row_Boardroom_Facility.jpg
 - photos/svc-hourly: Fashion-wristwatch-time-watch (24217032812).jpg by www.Pixel.la Free Stock Photos (CC0 ) https://commons.wikimedia.org/wiki/File:Fashion-wristwatch-time-watch_(24217032812).jpg
 - photos/svc-wedding: 22, Bridal bouquet (Unsplash).jpg by Alvin Mahmudov alvinmahmudov (CC0 ) https://commons.wikimedia.org/wiki/File:22,_Bridal_bouquet_(Unsplash).jpg
+- photos/who: Toronto - ON - Skyline10.jpg by Taxiarchos228 (FAL ) https://commons.wikimedia.org/wiki/File:Toronto_-_ON_-_Skyline10.jpg
 - photos/why-chauffeur: Mercedes-Benz W223 IAA 2021 1X7A0206.jpg by Alexander Migl (CC BY-SA 4.0 ) https://commons.wikimedia.org/wiki/File:Mercedes-Benz_W223_IAA_2021_1X7A0206.jpg
 - photos/why-fares: 2007 Maserati Gran Turismo - Flickr - The Car Spy (7).jpg by The Car Spy (CC BY 2.0 ) https://commons.wikimedia.org/wiki/File:2007_Maserati_Gran_Turismo_-_Flickr_-_The_Car_Spy_(7).jpg
 - photos/why-flight: Private jets at Luton Airport - geograph.org.uk - 7856842.jpg by Thomas Nugent  (CC BY-SA 2.0 ) https://commons.wikimedia.org/wiki/File:Private_jets_at_Luton_Airport_-_geograph.org.uk_-_7856842.jpg
