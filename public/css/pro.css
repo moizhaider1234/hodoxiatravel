@@ -301,3 +301,23 @@ a.cbox:hover{border-color:var(--gold);transform:translateX(4px)}
 #glow,.card::before,.occ::before{display:none!important}
 /* airport sign badge */
 .apt .sign{position:absolute;left:14px;top:14px;z-index:2;font:600 17px/1 'Jost',sans-serif;letter-spacing:.2em;color:#171518;background:linear-gradient(180deg,#f4e3bd,#c7a365);padding:8px 12px 8px 14px;border-radius:3px;box-shadow:0 6px 16px rgba(0,0,0,.45),inset 0 0 0 2px rgba(23,21,24,.25);font-style:normal}
+
+/* ---- unique photos everywhere ---- */
+.svc-sec::before{background:linear-gradient(180deg,#171518 0%,rgba(23,21,24,.80) 26%,rgba(23,21,24,.80) 74%,#171518 100%),url(../photos/bg-svc.jpg) center/cover no-repeat,#171518}
+.sec.why-sec{background:linear-gradient(180deg,rgba(23,21,24,.93) 0,rgba(23,21,24,.82) 45%,rgba(23,21,24,.94) 100%),url(../photos/bg-why.jpg) center/cover no-repeat fixed,#171518}
+.cta.cta-photo{background:linear-gradient(rgba(23,21,24,.86),rgba(23,21,24,.78)),radial-gradient(ellipse at 50% 120%,rgba(199,163,101,.3),transparent 60%),url(../photos/bg-cta.jpg) 40% 50%/cover no-repeat,#171518}
+#journey{background:linear-gradient(rgba(252,248,237,.93),rgba(252,248,237,.88)),url(../photos/bg-journey.jpg) center/cover no-repeat,#fcf8ed}
+.sec.apt-sec{background:linear-gradient(180deg,rgba(23,21,24,.90),rgba(23,21,24,.78) 50%,rgba(23,21,24,.92)),url(../photos/bg-apt.jpg) center 40%/cover no-repeat,#171518}
+.sec.faq-sec{background:linear-gradient(rgba(23,21,24,.92),rgba(23,21,24,.88)),url(../photos/bg-faq.jpg) center/cover no-repeat,#171518}
+.sec.rt-sec{background:linear-gradient(rgba(252,248,237,.94),rgba(252,248,237,.90)),url(../photos/bg-routes.jpg) center/cover no-repeat,#fcf8ed}
+body[data-page=services] .page-head{--ph:url(../photos/ph-services.jpg)}
+body[data-page=fleet] .page-head{--ph:url(../photos/ph-fleet.jpg)}
+body[data-page=coverage] .page-head{--ph:url(../photos/ph-coverage.jpg)}
+body[data-page=book] .page-head{--ph:url(../photos/ph-book.jpg)}
+body[data-page=contact] .page-head{--ph:url(../photos/ph-contact.jpg)}
+body[data-page=about] .page-head{--ph:url(../photos/ph-about.jpg)}
+.card.has-ph{padding-top:0}
+.card .cph{aspect-ratio:3/2;margin:0 -28px 24px;overflow:hidden;background:#171518;border-bottom:1px solid var(--line)}
+.card .cph img,.nxc .cph img{width:100%;height:100%;object-fit:cover;display:block;transition:transform .8s var(--ease)}
+.card:hover .cph img,.nxc:hover .cph img{transform:scale(1.06)}
+.nxc{padding:0 0 30px;overflow:hidden}.nxc .cph{aspect-ratio:3/2;overflow:hidden;margin-bottom:22px}.nxc>*:not(.cph){margin-left:30px;margin-right:30px}

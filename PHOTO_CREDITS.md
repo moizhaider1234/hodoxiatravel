@@ -1,18 +1,59 @@
 # Photo credits
-Photos are from Wikimedia Commons (licences noted per file). Attribution:
-- YYZ: Toronto Pearson Airport-Terminal 1 by Qyd (CC BY 2.5)
-- YVR: Terminal of Vancouver Intl Airport by Weixi Zeng (CC BY-SA 3.0)
-- YUL: Montreal Trudeau international style terminal by airbus777 (CC BY 2.0)
-- YYC: Calgary International Airport by Milan Suvajac (CC BY-SA 4.0)
-- YOW: Centre Block - Parliament Hill by Saffron Blaze (CC BY-SA 3.0)
-- YEG: Edmonton International Airport terminal 2023 by OhanaUnitedTalk (CC BY-SA 4.0)
-- YWG: Winnipeg New Airport Terminal 3 by Techman224 (CC BY-SA 3.0)
-- YHZ: Halifax Stanfield International Airport by Dennis G. Jarvis (CC BY-SA 2.0)
-- YYJ: Harbour Air floatplane at Victoria by Guilhem Vellut (CC BY 2.0)
-- YQB: Aeroport Jean Lesage by Harfang (CC BY 3.0)
-- Niagara Falls: Horseshoe Falls view by Helen Filatova (CC BY 2.0)
-- Whistler: by Richie Diesterheft (CC BY-SA 2.0)
-- Quebec: Caleche horses in Vieux-Quebec by Wilfredor (CC BY-SA 4.0)
-- Banff: Peyto Lake by Tobias Alt (CC BY-SA 4.0)
-- Ottawa: Rideau Canal locks by Mhsheikholeslami (CC BY-SA 4.0)
-- Toronto: Gardiner Expressway at night by Canmenwalker (CC BY 4.0)
+
+Photos are from Wikimedia Commons and Openverse under free licences. Attribution:
+
+- airports/yeg: Edmonton International Airport terminal 2023.jpg by OhanaUnitedTalk page (CC BY-SA 4.0 ) https://commons.wikimedia.org/wiki/File:Edmonton_International_Airport_terminal_2023.jpg
+- airports/yhz: Nova Scotia DSC07149 - Halifax Stanfield International Airport (35073011524).jpg by Dennis G. Jarvis (CC BY-SA 2.0 ) https://commons.wikimedia.org/wiki/File:Nova_Scotia_DSC07149_-_Halifax_Stanfield_International_Airport_(35073011524).jpg
+- airports/yow: Centre Block - Parliament Hill.jpg by Saffron Blaze (CC BY-SA 3.0 ) https://commons.wikimedia.org/wiki/File:Centre_Block_-_Parliament_Hill.jpg
+- airports/yqb: Aéroport Jean Lesage.jpg by Harfang (CC BY 3.0 ) https://commons.wikimedia.org/wiki/File:A%C3%A9roport_Jean_Lesage.jpg
+- airports/yul: Montreal Trudeau international style terminal.jpg by airbus777 (CC BY 2.0 ) https://commons.wikimedia.org/wiki/File:Montreal_Trudeau_international_style_terminal.jpg
+- airports/yvr: Terminal of Vancouver Intl Airport - panoramio.jpg by Weixi Zeng (CC BY-SA 3.0 ) https://commons.wikimedia.org/wiki/File:Terminal_of_Vancouver_Intl_Airport_-_panoramio.jpg
+- airports/yvz: Sioux Lookout Airport.JPG by J Hazard (CC BY-SA 3.0 ) https://commons.wikimedia.org/wiki/File:Sioux_Lookout_Airport.JPG
+- airports/ywg: Winnipeg New Airport Terminal 3.JPG by Techman224 (CC BY-SA 3.0 ) https://commons.wikimedia.org/wiki/File:Winnipeg_New_Airport_Terminal_3.JPG
+- airports/yyc: Calgary AB Airport Calgary-International-Airport 2022-09-29.jpg by Milan Suvajac (CC BY-SA 4.0 ) https://commons.wikimedia.org/wiki/File:Calgary_AB_Airport_Calgary-International-Airport_2022-09-29.jpg
+- airports/yyj: C-GLCP @ Victoria (7715354752).jpg by Guilhem Vellut from Annecy, France (CC BY 2.0 ) https://commons.wikimedia.org/wiki/File:C-GLCP_@_Victoria_(7715354752).jpg
+- airports/yyz: Toronto Pearson Airport-Terminal 1.JPG by Qyd (CC BY 2.5 ) https://commons.wikimedia.org/wiki/File:Toronto_Pearson_Airport-Terminal_1.JPG
+- photos/bg-apt: Walterdale Bridge into downtown Edmonton, Alberta, 2026-09-26.jpg by Chris Woodrich (CC BY-SA 4.0 ) https://commons.wikimedia.org/wiki/File:Walterdale_Bridge_into_downtown_Edmonton,_Alberta,_2026-09-26.jpg
+- photos/bg-cta: Chateau Frontenac at dusk in Quebec City.jpg by Wilfredor (CC0 ) https://commons.wikimedia.org/wiki/File:Chateau_Frontenac_at_dusk_in_Quebec_City.jpg
+- photos/bg-faq: Canadian Museum for Human Rights and downtown Winnipeg skyline at night, Manitoba, Canada. by Ethan Sahagun (CC BY 4.0 ) https://commons.wikimedia.org/wiki/File:Canadian_Museum_for_Human_Rights_and_downtown_Winnipeg_skyline_at_night,_Manitoba,_Canada.jpg
+- photos/bg-journey: Montreal - QC - Skyline.jpg by Taxiarchos228 (CC BY 3.0 ) https://commons.wikimedia.org/wiki/File:Montreal_-_QC_-_Skyline.jpg
+- photos/bg-routes: Parliament Hill from the Ottawa River.JPG by Óðinn (CC BY-SA 2.5 ca ) https://commons.wikimedia.org/wiki/File:Parliament_Hill_from_the_Ottawa_River.JPG
+- photos/bg-svc: Sunset Toronto Skyline Panorama Crop from Snake Island.jpg by Jchmrt (CC BY-SA 4.0 ) https://commons.wikimedia.org/wiki/File:Sunset_Toronto_Skyline_Panorama_Crop_from_Snake_Island.jpg
+- photos/bg-why: Vancouver Skyline and Mountains.jpg by Kyle Pearce/ DIY Genius (CC BY-SA 2.0 ) https://commons.wikimedia.org/wiki/File:Vancouver_Skyline_and_Mountains.jpg
+- photos/nx-book: Business class cabin of B-7173 (20240224142041).jpg by N509FZ (CC BY-SA 4.0 ) https://commons.wikimedia.org/wiki/File:Business_class_cabin_of_B-7173_(20240224142041).jpg
+- photos/nx-contact: Entrance of Amantaka luxury Resort & Hotel at blue hour in Luang Prabang Laos.jpg by Basile Morin (CC BY-SA 4.0 ) https://commons.wikimedia.org/wiki/File:Entrance_of_Amantaka_luxury_Resort_%26_Hotel_at_blue_hour_in_Luang_Prabang_Laos.jpg
+- photos/nx-coverage: Moraine Lake 17092005.jpg by Gorgo (Public domain ) https://commons.wikimedia.org/wiki/File:Moraine_Lake_17092005.jpg
+- photos/occ-conference: Conference room XIX in the Palace of Nations.jpg by Unnerving duck (CC BY-SA 4.0 ) https://commons.wikimedia.org/wiki/File:Conference_room_XIX_in_the_Palace_of_Nations.jpg
+- photos/occ-daytour: Autumnal Retreat in Old Quebec- A Canvas of Fading Reds and Vibrant Oranges.jpg by Wilfredor  (CC0 ) https://commons.wikimedia.org/wiki/File:Autumnal_Retreat_in_Old_Quebec-_A_Canvas_of_Fading_Reds_and_Vibrant_Oranges.jpg
+- photos/occ-evening: RWVI Gala Dinner, Venice 2019 Congress.jpg by Derek Williams (CC BY 4.0 ) https://commons.wikimedia.org/wiki/File:RWVI_Gala_Dinner,_Venice_2019_Congress.jpg
+- photos/occ-meetgreet: Larnaca Airport Arrivals Hall 20180330.jpg by Héctor Ochoa "Robot8A" (CC BY-SA 4.0 ) https://commons.wikimedia.org/wiki/File:Larnaca_Airport_Arrivals_Hall_20180330.jpg
+- photos/occ-roadshow: Cadillac Escalade ESV (GMTK2XX) 1X7A1581.jpg by Alexander-93 (CC BY-SA 4.0 ) https://commons.wikimedia.org/wiki/File:Cadillac_Escalade_ESV_(GMTK2XX)_1X7A1581.jpg
+- photos/occ-wedding: Daimler DB18Consort e2 wedding car3.JPG by Daimler pics (CC BY-SA 3.0 ) https://commons.wikimedia.org/wiki/File:Daimler_DB18Consort_e2_wedding_car3.JPG
+- photos/ph-about: Chateau Frontenac illuminated at night in Quebec City.jpg by Wilfredor (CC0 ) https://commons.wikimedia.org/wiki/File:Chateau_Frontenac_illuminated_at_night_in_Quebec_City.jpg
+- photos/ph-book: Victoria Harbour Airport.jpg by ConifersOfGnarnia (CC BY 4.0 ) https://commons.wikimedia.org/wiki/File:Victoria_Harbour_Airport.jpg
+- photos/ph-contact: Parliament Hill Ottawa by Louie Luo.jpg by Louie Luo (CC BY-SA 4.0 ) https://commons.wikimedia.org/wiki/File:Parliament_Hill_Ottawa_by_Louie_Luo.jpg
+- photos/ph-coverage: Construction on the Halifax Waterfront in August 2019.jpg by WabbitWanderer from London, Canada (CC BY-SA 2.0 ) https://commons.wikimedia.org/wiki/File:Construction_on_the_Halifax_Waterfront_in_August_2019.jpg
+- photos/ph-fleet: Toronto - ON - Skyline bei Nacht.jpg by Wladyslaw (talk) (CC BY-SA 3.0 ) https://commons.wikimedia.org/wiki/File:Toronto_-_ON_-_Skyline_bei_Nacht.jpg
+- photos/ph-services: Calgary Skyline from the river.jpg by Mule hollandaise (CC BY 4.0 ) https://commons.wikimedia.org/wiki/File:Calgary_Skyline_from_the_river.jpg
+- photos/sp-airport: Night at Perth Airport Terminal 1 Domestic, WA, 2022 01.jpg by Kgbo (CC BY-SA 4.0 ) https://commons.wikimedia.org/wiki/File:Night_at_Perth_Airport_Terminal_1_Domestic,_WA,_2022_01.jpg
+- photos/sp-citytocity: Mountain Road Thunder Bay Canada Autumn (24076093089).jpg by Tony Webster from Minneapolis, Minnesota, United States (CC BY-SA 2.0 ) https://commons.wikimedia.org/wiki/File:Mountain_Road_Thunder_Bay_Canada_Autumn_(24076093089).jpg
+- photos/sp-corporate: Atlanta 24-27 Feb 2010 (4399677164).jpg by David from Colorado Springs, United States (CC BY 2.0 ) https://commons.wikimedia.org/wiki/File:Atlanta_24-27_Feb_2010_(4399677164).jpg
+- photos/sp-hourly: Wristwatch Record P8051916.jpg by Alexxx1979 (CC BY-SA 4.0 ) https://commons.wikimedia.org/wiki/File:Wristwatch_Record_P8051916.jpg
+- photos/sp-wedding: Dülmen, St.-Viktor-Kirche, Innenansicht, Altar -- 2018 -- 0552-6.jpg by Dietmar Rabich (CC BY-SA 4.0 ) https://commons.wikimedia.org/wiki/File:D%C3%BClmen,_St.-Viktor-Kirche,_Innenansicht,_Altar_--_2018_--_0552-6.jpg
+- photos/svc-airport: LHR takeoff and runway 6-8-2024.jpg by PCN02WPS (CC BY-SA 4.0 ) https://commons.wikimedia.org/wiki/File:LHR_takeoff_and_runway_6-8-2024.jpg
+- photos/svc-citytocity: Mountain road in Jasper (Unsplash).jpg by Gabriel Santiago gabrielssantiago (CC0 ) https://commons.wikimedia.org/wiki/File:Mountain_road_in_Jasper_(Unsplash).jpg
+- photos/svc-corporate: N1 Hotel Rotten Row Boardroom Facility.jpg by Rufouslark (CC BY-SA 4.0 ) https://commons.wikimedia.org/wiki/File:N1_Hotel_Rotten_Row_Boardroom_Facility.jpg
+- photos/svc-hourly: Fashion-wristwatch-time-watch (24217032812).jpg by www.Pixel.la Free Stock Photos (CC0 ) https://commons.wikimedia.org/wiki/File:Fashion-wristwatch-time-watch_(24217032812).jpg
+- photos/svc-wedding: 22, Bridal bouquet (Unsplash).jpg by Alvin Mahmudov alvinmahmudov (CC0 ) https://commons.wikimedia.org/wiki/File:22,_Bridal_bouquet_(Unsplash).jpg
+- photos/why-chauffeur: Mercedes-Benz W223 IAA 2021 1X7A0206.jpg by Alexander Migl (CC BY-SA 4.0 ) https://commons.wikimedia.org/wiki/File:Mercedes-Benz_W223_IAA_2021_1X7A0206.jpg
+- photos/why-fares: Leather shop Re-Cuir, Barcelona 01.jpg by Joe Mabel (CC BY-SA 4.0 ) https://commons.wikimedia.org/wiki/File:Leather_shop_Re-Cuir,_Barcelona_01.jpg
+- photos/why-flight: Private jets at Luton Airport - geograph.org.uk - 7856842.jpg by Thomas Nugent  (CC BY-SA 2.0 ) https://commons.wikimedia.org/wiki/File:Private_jets_at_Luton_Airport_-_geograph.org.uk_-_7856842.jpg
+- photos/why-privacy: Hyundai Staria Limousine US4 PE Black One-tone (5).jpg by Damian B Oh (CC BY-SA 4.0 ) https://commons.wikimedia.org/wiki/File:Hyundai_Staria_Limousine_US4_PE_Black_One-tone_(5).jpg
+- photos/why-support: Virgin Australia Lounge Perth Airport Terminal 1 - Domestic, June 2022 02.jpg by Calistemon (CC BY-SA 4.0 ) https://commons.wikimedia.org/wiki/File:Virgin_Australia_Lounge_Perth_Airport_Terminal_1_-_Domestic,_June_2022_02.jpg
+- photos/why-vehicles: Cadillac Escalade 2.jpg by Calreyn88 (CC BY-SA 4.0 ) https://commons.wikimedia.org/wiki/File:Cadillac_Escalade_2.jpg
+- routes/banff: Peyto Lake-Banff NP-Canada.jpg by Tobias Alt, Tobi 87 (CC BY-SA 4.0 ) https://commons.wikimedia.org/wiki/File:Peyto_Lake-Banff_NP-Canada.jpg
+- routes/niagara: Niagara-Falls-Horseshoe-Falls-view.jpg by Photo (c)2007 Helen Filatova (CC BY 2.0 ) https://commons.wikimedia.org/wiki/File:Niagara-Falls-Horseshoe-Falls-view.jpg
+- routes/ottawa: Ottawa Locks at Colonel By Valley-Rideau Canal- Ottawa-Ontario-5727-20131011.jpg by Mhsheikholeslami (CC BY-SA 4.0 ) https://commons.wikimedia.org/wiki/File:Ottawa_Locks_at_Colonel_By_Valley-Rideau_Canal-_Ottawa-Ontario-5727-20131011.jpg
+- routes/quebec: Caleche horses waiting in a snowy street in Vieux-Quebec.jpg by Wilfredor (CC BY-SA 4.0 ) https://commons.wikimedia.org/wiki/File:Caleche_horses_waiting_in_a_snowy_street_in_Vieux-Quebec.jpg
+- routes/toronto: Gardiner Expy at Toronto Downtown at night 2023.jpg by Canmenwalker (CC BY 4.0 ) https://commons.wikimedia.org/wiki/File:Gardiner_Expy_at_Toronto_Downtown_at_night_2023.jpg
+- routes/whistler: Whistler, British Columbia, Canada (20210396234).jpg by Richie Diesterheft from Santa Barbara, CA, USA (CC BY-SA 2.0 ) https://commons.wikimedia.org/wiki/File:Whistler,_British_Columbia,_Canada_(20210396234).jpg
